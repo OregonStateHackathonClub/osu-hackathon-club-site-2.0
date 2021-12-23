@@ -7,7 +7,9 @@ const ArchivePage = ( {pastHackathons} ) => {
     return (
         <>
             <Navbar/>
-            <h2>archive</h2>
+            <div class="pagebody">
+            <h1 class="pagetitle"> Coming soon... </h1>
+            </div>
         </>
     );
 }

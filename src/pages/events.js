@@ -16,7 +16,7 @@ const EventsPage = ( {currentHackathon} ) => {
           <>
           <button
             onClick={toggleDisplay}
-            >info</button>
+            >hackathon info</button>
             {isDisplayed
 	            ? <Info currentHackathon={currentHackathon}/>
 	            : <></>
@@ -32,7 +32,7 @@ const EventsPage = ( {currentHackathon} ) => {
           <>
           <button
             onClick={toggleDisplay}
-            >faq</button>
+            >frequently asked questions</button>
             {isDisplayed
 	            ? <FAQ currentHackathon={currentHackathon}/>
 	            : <></>
@@ -62,13 +62,16 @@ const EventsPage = ( {currentHackathon} ) => {
     return (
         <>
             <Navbar/>
-            <ShowInfo/>
-            <br/>
-            <ShowFAQ/>
-            <br/>
-            <ShowRegistration/>
-            <br/>
-            <img src={logo} id="circle-logo" alt="beaverhackslogo"/>
+            <div class="pagebody"> 
+            <h1 class="pagetitle"> {currentHackathon.title} </h1>
+              <ShowInfo/>
+              <br/>
+              <ShowFAQ/>
+              <br/>
+              <ShowRegistration/>
+              <br/>
+              <img src={logo} id="circlelogo" alt="beaverhackslogo"/>
+            </div>
         </>
     );
 }

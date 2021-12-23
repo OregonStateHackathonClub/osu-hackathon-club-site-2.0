@@ -4,27 +4,90 @@
     font-weight: lighter;
     }
 
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+
 ul {
     list-style-type: none;
-    }
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
 
 #navbarJellyBean {
-    
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+#beaverhacks {
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 40%;
 }
 
 li {
-    display: inline;
+    padding-left: 20px;
+    padding-right: 5px;
+    float: left;
   }
 
+
+#navbarlinks {
+    font-size: 20px;
+}
+
+button {
+    background-color: #D63F09;
+    border-width: 0;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #navbar {
-    height: 10%;
-    margin: 0;
-    padding: 0;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 10px;
     background-color: #969191;
 }
 
-#navbarlinks {
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: right;
+#circlelogo {
+    display: block;
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.pagebody {
+    background-color: #ECECEC;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    margin-bottom: 100px;
+}
+
+p, h1 {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.pagetitle {
+    font-size: 50px;
 }

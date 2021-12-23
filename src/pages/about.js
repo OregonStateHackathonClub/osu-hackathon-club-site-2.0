@@ -60,11 +60,15 @@ const AboutPage = ( {clubInfo} ) => {
     return (
         <>
             <Navbar/>
-            <ShowAboutClub/>
-            <br/>
-            <ShowJoinClub/>
-            <br/>
-            <ShowOfficers/>
+            <div class="pagebody">
+            <h1 class="pagetitle"> about the Oregon State Hackathon club </h1>
+
+              <ShowAboutClub/>
+              <br/>
+              <ShowJoinClub/>
+              <br/>
+              <ShowOfficers/>
+            </div>
         </>
     );
 }
