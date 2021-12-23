@@ -2,19 +2,19 @@
 
 ## Structure
 
-All pages to be included (about, archive, events) are in separate folders within the src folder. Then, each page and ever section of that page has its own file as well for generating components of that page, mostly for organizational purposes. 
+All pages to be included (about, archive, events) are in separate folders within the src folder. Individual components of each page are in components folder, and any data that regularly needs updated (information about upcoming events, hackathon archives, etc. will dwell in the data folder for easy updating. 
 
 ### about
 
-About, join the club, and officers buttons load the static content for these pages. 
+About, join the club, and officers buttons load the content for these pages. 
 
 ### archive
 
-Contains the archival information about past hackathons, to be generated dynamically from the database. When a user selects the hackathon information that they want to retrieve, it will load that page. 
+Contains the archival information about past hackathons, to be generated dynamically from the data folder information. When a user selects the hackathon information that they want to retrieve, it will load that page. 
 
 ### events
 
-Contains the current hackathon's information, generated from the database (this hackathon's theme, judges, schedule, etc.) and also statically (basic faq info that is the same across hackathons). Buttons for schedule, registration, and faq generate the content on this page.
+Contains the current hackathon's information, generated from the stored data (this hackathon's theme, judges, schedule, etc.) and also statically (basic faq info that is the same across hackathons). Buttons for schedule, registration, and faq generate the content on this page.
 
 ### navbar
 
@@ -22,15 +22,15 @@ Pretty self-explanatory, this will mostly be styling work and a navigation compo
 
 ### data 
 
-All data for current and past events will be stored in some sort of database, depending on what is learned in 290 (MongoDB?). I'd like to have one universal format for storing data on hackathons, so that we can easily convert the information on the "upcoming events" page into archival information. For example, for each hackathon we will store information on the theme, judges, schedule, winners, etc.
+All data for current and past events will be stored in these three js files which correspond to the events, about, and archive pages. 
 
 ## Figma prototype
 
 https://www.figma.com/file/RBj3T8CMvdqhnw3zEYxez1/beaverhacks-website?node-id=0%3A1
 
 
-## Other goals:
+## TBD:
 
-Mobile-responsive! 
-Develop alongside 290 curriculum (MERN stack) as much as possible. 
-
+Responsive and mobile responsive
+Archive page
+Update content
