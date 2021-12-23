@@ -1,5 +1,9 @@
 # Hackathon Club Website Development
 
+## To test: 
+
+On your local IDE simply download and open this file and enter command "npm install" and then "npm start" into your terminal. 
+
 ## Structure
 
 All pages to be included (about, archive, events) are in separate folders within the src folder. Individual components of each page are in components folder, and any data that regularly needs updated (information about upcoming events, hackathon archives, etc. will dwell in the data folder for easy updating. 
