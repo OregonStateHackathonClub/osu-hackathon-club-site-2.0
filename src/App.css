@@ -1,0 +1,30 @@
+* {
+    font-family: JetBrainsMonoNL-Thin;
+    src: url("./fonts/ttf/JetBrainsMonoNL-Thin.ttf");
+    font-weight: lighter;
+    }
+
+ul {
+    list-style-type: none;
+    }
+
+#navbarJellyBean {
+    
+}
+
+li {
+    display: inline;
+  }
+
+#navbar {
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    background-color: #969191;
+}
+
+#navbarlinks {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: right;
+}

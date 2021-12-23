@@ -1,10 +1,28 @@
 import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ArchivePage from './pages/archive';
+import AboutPage from './pages/about';
+import EventsPage from './pages/events';
+import clubInfo from './data/clubinfo';
+import currentHackathon from './data/currenthackathon';
+import pastHackathons from './data/pasthackathons';
 
 function App() {
   return (
     <div className="App">
-      <header>
-      </header>
+        <div className="App-header">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" exact element={<EventsPage currentHackathon={currentHackathon}/>}>
+            </Route>
+            <Route path="/archive" element={<ArchivePage pastHackathons={pastHackathons}/>}>
+            </Route>
+            <Route path="/about" element={<AboutPage clubInfo={clubInfo}/>}>
+            </Route>
+          </Routes>
+        </BrowserRouter>
+        </div>
     </div>
   );
 }
