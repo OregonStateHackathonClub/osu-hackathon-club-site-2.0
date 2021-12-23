@@ -61,7 +61,7 @@ const AboutPage = ( {clubInfo} ) => {
         <>
             <Navbar/>
             <div class="pagebody">
-            <h1 class="pagetitle"> about the Oregon State Hackathon club </h1>
+            <h1 class="pagetitle"> About the Oregon State Hackathon club </h1>
 
               <ShowAboutClub/>
               <br/>

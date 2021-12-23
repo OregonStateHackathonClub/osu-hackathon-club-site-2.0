@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Faq = () => {
+function Faq() {
 
     return (
-        <>
+        <div class="infobody">
             <h1>Categories</h1>
                 <h2> Overall category</h2>          
                     <p> 
@@ -69,7 +69,7 @@ const Faq = () => {
                 <p> 
                     Free Agents are people looking to be placed on a team. If you want us to assign you to a team, please select "Yes" under the Free Agent section of Registration. After registration closes, and before we place you on a team, we will send an email confirming your participation in BeaverHacks (just in case something has come up and you can no longer participate). Please respond ASAP so we can form teams accordingly! 🙏
                 </p>
-        </>
+        </div>
     );
 }
 
