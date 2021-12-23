@@ -6,7 +6,7 @@ const currentHackathon =
     endDate: "January 09 at 3:00pm PST",
     winnersAnnounced: "January 14 at 3:00pm PST",
     judges: ["name: title", "name: title", "name, title"],
-    theme: "theme1", 
+    theme: "Data", 
     linkToDevPost: "https://beaverhacks-winter-2022.devpost.com/?ref_feature=challenge&ref_medium=discover"}
 ;
 

@@ -94,6 +94,8 @@ p, h1, h2 {
 
 .joinclubbuttons {
     background-color: #DA704A;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .infobody {
