@@ -17,10 +17,6 @@ body {
     color: white;
 }
 
-.navbarlinks{
-    font-size: 15px;
-}
-
 button {
     background-color: #D63F09;
     border-width: 0;
@@ -47,7 +43,8 @@ a {
     background-color: #ECECEC;
     margin-left: 20px;
     margin-right: 20px;
-    border-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     padding-bottom: 30px;
     padding-top: 30px;
     margin-bottom: 100px;
@@ -88,7 +85,11 @@ h1 {
     font-style: bold;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: grey;
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
 }
+
+
 

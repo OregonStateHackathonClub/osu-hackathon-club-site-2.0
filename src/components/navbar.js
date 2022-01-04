@@ -4,8 +4,8 @@ import RightJellyBean from '../images/RightJellyBean.png';
 
 function NavigationBar() {
     return (
-      <Navbar bg="dark" variant="dark" expand="lg" id='navbar'>
-        <Container>
+      <Navbar variant="dark" bg="dark" expand="md">
+        <Container> 
         <Navbar.Brand id='beaverhacks' href="/">
           <img
               src={RightJellyBean}
@@ -17,8 +17,8 @@ function NavigationBar() {
             />{' '}
       beaverhacks</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto navbarlinks">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav>
             <Nav.Link href="/">events</Nav.Link>
             <Nav.Link href="about">about</Nav.Link>
             <Nav.Link href="archive">archive</Nav.Link>
