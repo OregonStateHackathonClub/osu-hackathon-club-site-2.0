@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/navbar';
+import NavigationBar from '../components/navbar';
 import logo from '../images/bh-logo-circle.png';
 import { useState } from 'react';
 import Info from '../components/info';
@@ -61,7 +61,7 @@ const EventsPage = ( {currentHackathon} ) => {
 
     return (
         <>
-            <Navbar/>
+            <NavigationBar/>
             <div class="pagebody"> 
             <h1 class="pagetitle"> {currentHackathon.title} </h1>
               <ShowInfo/>

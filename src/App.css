@@ -11,36 +11,14 @@ body {
     background-color: white;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+
+#beaverhacks {
+    font-size: 40px;
     color: white;
 }
 
-
-#navbarJellyBean {
-    display: block;
-    width: 60px;
-    height: 60px;
-    margin: auto;
-}
-
-#beaverhacks {
-    font-size: 50px;
-    padding-left: 20px;
-    padding-right: 40%;
-}
-
-li {
-    padding-left: 20px;
-    padding-right: 5px;
-    float: left;
-  }
-
-
-#navbarlinks {
-    font-size: 20px;
+.navbarlinks{
+    font-size: 15px;
 }
 
 button {
@@ -49,7 +27,7 @@ button {
     border-radius: 15px;
     padding: 10px;
     margin: 15px;
-    color: white;
+    color: #ececec;
 }
 
 a {
@@ -57,18 +35,10 @@ a {
     color: inherit;
 }
 
-#navbar {
-    display: block;
-    height: 60px;
-    line-height: 60px;
-    padding: 10px;
-    background-color: #969191;
-}
-
 #circlelogo {
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 200px;
     padding-top: 50px;
     margin: auto;
 }
@@ -79,7 +49,7 @@ a {
     margin-right: 20px;
     border-radius: 15px;
     padding-bottom: 30px;
-    padding-top: 15px;
+    padding-top: 30px;
     margin-bottom: 100px;
 }
 
@@ -117,3 +87,8 @@ h2 {
 h1 {
     font-style: bold;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: grey;
+}
+

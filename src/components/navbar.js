@@ -1,22 +1,32 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 import RightJellyBean from '../images/RightJellyBean.png'; 
 
-function Navbar() {
+function NavigationBar() {
     return (
-      <nav id="navbar">
-        <ul> 
-          <li> <img src={RightJellyBean} id="navbarJellyBean" alt="Jelly Bean Facing Right"/> </li>
-          <li id='beaverhacks'>beaverhacks</li> 
-          <div id="navbarlinks">  
-            <li><Link to="/"> events</Link></li>
-            <li><Link to="/about">about</Link></li> 
-            <li><Link to="/archive">archive</Link></li>
-          </div> 
-        </ul>
-
-      </nav>
+      <Navbar bg="dark" variant="dark" expand="lg" id='navbar'>
+        <Container>
+        <Navbar.Brand id='beaverhacks' href="/">
+          <img
+              src={RightJellyBean}
+              width="60"
+              height="60"
+              className="d-inline-block align-top"
+              alt="Jelly Bean Facing Right"
+              id="navbarJellyBean"
+            />{' '}
+      beaverhacks</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto navbarlinks">
+            <Nav.Link href="/">events</Nav.Link>
+            <Nav.Link href="about">about</Nav.Link>
+            <Nav.Link href="archive">archive</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     );
-  }
+}
   
-  export default Navbar;
+  export default NavigationBar;

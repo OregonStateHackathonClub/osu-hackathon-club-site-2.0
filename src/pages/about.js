@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/navbar';
+import NavigationBar from '../components/navbar';
 import { useState } from 'react';
 import Join from '../components/jointheclub';
 import Officers from '../components/officers';
@@ -59,9 +59,9 @@ const AboutPage = ( {clubInfo} ) => {
 
     return (
         <>
-            <Navbar/>
+            <NavigationBar/>
             <div class="pagebody">
-            <h1 class="pagetitle"> About the Oregon State Hackathon club </h1>
+            <h1 class="pagetitle"> about the Oregon State Hackathon club </h1>
 
               <ShowAboutClub/>
               <br/>

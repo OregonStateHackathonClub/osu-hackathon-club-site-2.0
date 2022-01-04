@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from '../components/navbar';
+import NavigationBar from '../components/navbar';
 
 
 
 const ArchivePage = ( {pastHackathons} ) => {
     return (
         <>
-            <Navbar/>
+            <NavigationBar/>
             <div class="pagebody">
             <h1 class="pagetitle"> Coming soon... </h1>
             </div>
