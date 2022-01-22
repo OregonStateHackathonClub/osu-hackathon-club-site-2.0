@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Info from '../components/info';
 import FAQ from '../components/faq';
 import Registration from '../components/registration';
+import CategoriesAndPrizes from '../components/categoriesandprizes';
 
 
 const EventsPage = ( {currentHackathon} ) => {
@@ -42,6 +43,23 @@ const EventsPage = ( {currentHackathon} ) => {
 
     }
 
+    function ShowCategoriesAndPrizes () {
+      const [isDisplayed, setDisplayed] = useState(false);
+      const toggleDisplay = () => setDisplayed(!isDisplayed);
+      return (
+        <>
+        <button
+          onClick={toggleDisplay}
+          >team categories and prizes</button>
+          {isDisplayed
+            ? <CategoriesAndPrizes currentHackathon={currentHackathon}/>
+            : <></>
+          }
+        </>
+      );
+
+  }
+
     function ShowRegistration () {
         const [isDisplayed, setDisplayed] = useState(false);
         const toggleDisplay = () => setDisplayed(!isDisplayed);
@@ -65,6 +83,8 @@ const EventsPage = ( {currentHackathon} ) => {
             <div class="pagebody"> 
             <h1 class="pagetitle"> {currentHackathon.title} </h1>
               <ShowInfo/>
+              <br/>
+              <ShowCategoriesAndPrizes/>
               <br/>
               <ShowFAQ/>
               <br/>
