@@ -17,7 +17,7 @@ const EventsPage = ( {currentHackathon} ) => {
           <>
           <button
             onClick={toggleDisplay}
-            >hackathon info</button>
+            >upcoming hackathon info</button>
             {isDisplayed
 	            ? <Info currentHackathon={currentHackathon}/>
 	            : <></>
@@ -81,7 +81,7 @@ const EventsPage = ( {currentHackathon} ) => {
         <>
             <NavigationBar/>
             <div class="pagebody"> 
-            <h1 class="pagetitle"> {currentHackathon.title} </h1>
+            <h1 class="pagetitle"> next hackathon: {currentHackathon.title} </h1>
               <ShowInfo/>
               <br/>
               <ShowCategoriesAndPrizes/>

@@ -14,7 +14,7 @@ const AboutPage = ( {clubInfo} ) => {
           <>
           <button
             onClick={toggleDisplay}
-            >about the club</button>
+            >mission & history</button>
             {isDisplayed
 	            ? <AboutTheClub clubInfo={clubInfo}/>
 	            : <></>
@@ -47,7 +47,7 @@ const AboutPage = ( {clubInfo} ) => {
           <>
           <button
             onClick={toggleDisplay}
-            >officers</button>
+            >current officers</button>
             {isDisplayed
 	            ? <Officers clubInfo={clubInfo}/>
 	            : <></>
@@ -61,7 +61,7 @@ const AboutPage = ( {clubInfo} ) => {
         <>
             <NavigationBar/>
             <div class="pagebody">
-            <h1 class="pagetitle"> about the Oregon State Hackathon club </h1>
+            <h1 class="pagetitle"> about the Oregon State hackathon club </h1>
 
               <ShowAboutClub/>
               <br/>

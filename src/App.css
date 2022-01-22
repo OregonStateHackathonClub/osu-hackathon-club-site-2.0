@@ -50,13 +50,13 @@ a {
     margin-bottom: 100px;
 }
 
-p, h1, h2 {
+p, h2 {
     margin-left: 25%;
     margin-right: 25%;
 }
 
 .pagetitle {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .joinclubbuttons {
