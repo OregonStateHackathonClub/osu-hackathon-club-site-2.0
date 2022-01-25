@@ -6,6 +6,8 @@ import Info from '../components/info';
 import FAQ from '../components/faq';
 import Registration from '../components/registration';
 import CategoriesAndPrizes from '../components/categoriesandprizes';
+import Footer from '../components/footer';
+
 
 
 const EventsPage = ( {currentHackathon} ) => {
@@ -80,8 +82,8 @@ const EventsPage = ( {currentHackathon} ) => {
     return (
         <>
             <NavigationBar/>
-            <div class="pagebody"> 
-            <h1 class="pagetitle"> next hackathon: {currentHackathon.title} </h1>
+            <div className="pagebody"> 
+            <h1 className="pagetitle"> next hackathon: {currentHackathon.title} </h1>
               <ShowInfo/>
               <br/>
               <ShowCategoriesAndPrizes/>
@@ -92,6 +94,7 @@ const EventsPage = ( {currentHackathon} ) => {
               <br/>
               <img src={logo} id="circlelogo" alt="beaverhackslogo"/>
             </div>
+            <Footer/>
         </>
     );
 }

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Join from '../components/jointheclub';
 import Officers from '../components/officers';
 import AboutTheClub from '../components/abouttheclub';
+import Footer from '../components/footer';
 
 const AboutPage = ( {clubInfo} ) => {
 
@@ -60,8 +61,8 @@ const AboutPage = ( {clubInfo} ) => {
     return (
         <>
             <NavigationBar/>
-            <div class="pagebody">
-            <h1 class="pagetitle"> about the Oregon State hackathon club </h1>
+            <div className="pagebody">
+            <h1 className="pagetitle"> about the Oregon State hackathon club </h1>
 
               <ShowAboutClub/>
               <br/>
@@ -69,6 +70,7 @@ const AboutPage = ( {clubInfo} ) => {
               <br/>
               <ShowOfficers/>
             </div>
+            <Footer/>
         </>
     );
 }

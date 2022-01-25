@@ -3,16 +3,25 @@ import React from 'react';
 const Officers = ( {clubInfo} ) => {
 
     return (
-        <div class="infobody">
-            <h1> current officers</h1>
-            <p> President: {clubInfo.President} </p>
-            <p> Vice President: {clubInfo.VP} </p>
-            <p> Secretary: {clubInfo.Secretary} </p>
-            <p> Treasurer: {clubInfo.Treasurer} </p>
-            <p> Webmaster: {clubInfo.Webmaster} </p>
-            <p> Communication: {clubInfo.Communication} </p>
-            <p> Trusted Advisor: {clubInfo.SemiAdvisor} </p>
-            <p> Advisor: {clubInfo.Advisor} </p>
+        <div className="infobody">
+            <h2> current officers</h2>
+
+            <p className='officer-title'> President:</p> 
+                <p className='officer-name'> {clubInfo.President} </p> 
+            <p className='officer-title'> Vice President: </p> 
+                <p className='officer-name'> {clubInfo.VP} </p> 
+            <p className='officer-title'> Secretary: </p>     
+                <p className='officer-name'> {clubInfo.Secretary}  </p>
+            <p className='officer-title'> Treasurer: </p> 
+                <p className='officer-name'> {clubInfo.Treasurer} </p>
+            <p className='officer-title'> Webmaster: </p> 
+                <p className='officer-name'> {clubInfo.Webmaster} </p>
+            <p className='officer-title'> Communication: </p> 
+                <p className='officer-name'> {clubInfo.Communication} </p>
+            <p className='officer-title'> Trusted Advisor: </p> 
+                <p className='officer-name'> {clubInfo.SemiAdvisor} </p>
+            <p className='officer-title'> Advisor: </p> 
+                <p className='officer-name'> {clubInfo.Advisor} </p>
 
         </div>
     );

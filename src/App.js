@@ -6,7 +6,6 @@ import AboutPage from './pages/about';
 import EventsPage from './pages/events';
 import clubInfo from './data/clubinfo';
 import currentHackathon from './data/currenthackathon';
-import pastHackathons from './data/pasthackathons';
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
           <Routes>
             <Route path="/" exact element={<EventsPage currentHackathon={currentHackathon}/>}>
             </Route>
-            <Route path="/archive" element={<ArchivePage pastHackathons={pastHackathons}/>}>
+            <Route path="/archive" element={<ArchivePage/>}>
             </Route>
             <Route path="/about" element={<AboutPage clubInfo={clubInfo}/>}>
             </Route>
