@@ -9,7 +9,7 @@ function ArchiveCarousel ( ) {
 
     return (
       <div className="infobody">
-           <Carousel variant="dark" interval={null}>
+           <Carousel variant="dark" interval={1500}>
               <Carousel.Item className='carousel-item'>
                 <h1 className='hackathon-title'>winter 2022 hackathon</h1>
 
@@ -109,6 +109,7 @@ function ArchiveCarousel ( ) {
               </div>
 
               </Carousel.Item>
+              
             </Carousel>
 
         </div>
