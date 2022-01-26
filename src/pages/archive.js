@@ -9,7 +9,9 @@ const ArchivePage = ( {pastHackathons} ) => {
     return (
         <>
             <NavigationBar/>
+            <h1 className="pagetitle">archive</h1>
             <div className="pagebody">
+
             <ArchiveCarousel pastHackathons={pastHackathons}/>
             </div>
             <Footer/>

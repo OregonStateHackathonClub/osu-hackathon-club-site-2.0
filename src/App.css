@@ -21,12 +21,10 @@ a {
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    padding-top: 4em;
     text-align: center;
     background-color: white;
 }
-
 
 button {
     background-color: #D63F09;
@@ -35,6 +33,7 @@ button {
     padding: 10px;
     margin: 15px;
     color: #ececec;
+    font-size: 18px;
 }
 
 h1 {
@@ -61,7 +60,6 @@ p, h2 {
 .carousel-images {
     width: 300px;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 
@@ -109,11 +107,22 @@ p, h2 {
     margin-left: 20px;
 }
 
+.officer-name {
+    padding-top: 20px;
+    color: #DA704A;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 0px;
+
+}
 
 .officer-title {
     padding-top: 20px;
     font-style: italic;
     font-size: 20px;
+    text-align: right;
+    margin-right: 0px;
+
 }
 .orange-body-text {
     color: #DA704A;
@@ -124,16 +133,22 @@ p, h2 {
     background-color: #ECECEC;
     margin-left: 20px;
     margin-right: 20px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-radius: 15px;
     padding-bottom: 30px;
-    padding-top: 30px;
-    margin-top: 85px;
+    padding-top: 20px;
 }
 
 .pagetitle {
-    font-size: 35px;
-    margin: 30px;
+    background-color: #DA704A;
+    color: white;
+    border-radius: 15px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 50px;
 }
 
 .past_themes {
@@ -167,6 +182,9 @@ p, h2 {
     font-style: italic;
     font-size: 15px;
     color: #A0A0A0;
+    padding-bottom: 25px;
 }
+
+
 
 

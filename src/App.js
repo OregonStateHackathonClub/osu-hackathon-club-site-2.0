@@ -4,8 +4,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ArchivePage from './pages/archive';
 import AboutPage from './pages/about';
 import EventsPage from './pages/events';
-import clubInfo from './data/clubinfo';
-import currentHackathon from './data/currenthackathon';
 
 function App() {
   return (
@@ -13,11 +11,11 @@ function App() {
         <div className="App-header">
         <BrowserRouter>
           <Routes>
-            <Route path="/" exact element={<EventsPage currentHackathon={currentHackathon}/>}>
+            <Route path="/" exact element={<EventsPage/>}>
             </Route>
             <Route path="/archive" element={<ArchivePage/>}>
             </Route>
-            <Route path="/about" element={<AboutPage clubInfo={clubInfo}/>}>
+            <Route path="/about" element={<AboutPage/>}>
             </Route>
           </Routes>
         </BrowserRouter>

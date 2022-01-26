@@ -7,7 +7,7 @@ function AboutTheClub( {clubInfo} ) {
             <div className="infobody">
                 <h2> mission statement </h2>
                     <p> 
-                        Our mission is to strengthen the OSU community by fostering connections between students and building stronger programming skills through quarterly coding competitions and workshops.
+                        Our mission is to strengthen the Oregon State University community by fostering connections between students and building stronger programming skills through quarterly coding competitions and workshops.
                     </p>
             </div> 
 

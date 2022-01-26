@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Join( {clubInfo} ) {
+function Join() {
 
     return (
         <div className="infobody">

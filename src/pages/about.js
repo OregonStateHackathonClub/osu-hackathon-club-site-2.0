@@ -6,7 +6,7 @@ import Officers from '../components/officers';
 import AboutTheClub from '../components/abouttheclub';
 import Footer from '../components/footer';
 
-const AboutPage = ( {clubInfo} ) => {
+const AboutPage = () => {
 
             function ShowAboutClub() {
         const [isDisplayed, setDisplayed] = useState(false);
@@ -17,7 +17,7 @@ const AboutPage = ( {clubInfo} ) => {
             onClick={toggleDisplay}
             >mission & history</button>
             {isDisplayed
-	            ? <AboutTheClub clubInfo={clubInfo}/>
+	            ? <AboutTheClub/>
 	            : <></>
             }
           </>
@@ -33,7 +33,7 @@ const AboutPage = ( {clubInfo} ) => {
             onClick={toggleDisplay}
             >join the club</button>
             {isDisplayed
-	            ? <Join clubInfo={clubInfo}/>
+	            ? <Join/>
 	            : <></>
             }
           </>
@@ -50,7 +50,7 @@ const AboutPage = ( {clubInfo} ) => {
             onClick={toggleDisplay}
             >current officers</button>
             {isDisplayed
-	            ? <Officers clubInfo={clubInfo}/>
+	            ? <Officers/>
 	            : <></>
             }
           </>
@@ -61,8 +61,9 @@ const AboutPage = ( {clubInfo} ) => {
     return (
         <>
             <NavigationBar/>
+            <h1 className="pagetitle"> about the club </h1>
+
             <div className="pagebody">
-            <h1 className="pagetitle"> about the Oregon State hackathon club </h1>
 
               <ShowAboutClub/>
               <br/>

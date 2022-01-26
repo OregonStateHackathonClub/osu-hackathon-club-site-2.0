@@ -1,10 +1,12 @@
 import React from 'react';
 
-function Info ( {currentHackathon}) {
+function Info () {
 
     return (
         <>
             <div className="infobody">
+                <h1>spring 2022 hackathon</h1>
+                <br></br>
                 <h2> schedule </h2>
                     <p className='orange-body-text'> TBD </p>
                     

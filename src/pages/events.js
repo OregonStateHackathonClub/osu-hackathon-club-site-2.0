@@ -10,7 +10,7 @@ import Footer from '../components/footer';
 
 
 
-const EventsPage = ( {currentHackathon} ) => {
+const EventsPage = ( ) => {
 
     function ShowInfo() {
         const [isDisplayed, setDisplayed] = useState(false);
@@ -21,7 +21,7 @@ const EventsPage = ( {currentHackathon} ) => {
             onClick={toggleDisplay}
             >upcoming hackathon info</button>
             {isDisplayed
-	            ? <Info currentHackathon={currentHackathon}/>
+	            ? <Info/>
 	            : <></>
             }
           </>
@@ -37,7 +37,7 @@ const EventsPage = ( {currentHackathon} ) => {
             onClick={toggleDisplay}
             >frequently asked questions</button>
             {isDisplayed
-	            ? <FAQ currentHackathon={currentHackathon}/>
+	            ? <FAQ/>
 	            : <></>
             }
           </>
@@ -54,7 +54,7 @@ const EventsPage = ( {currentHackathon} ) => {
           onClick={toggleDisplay}
           >team categories and prizes</button>
           {isDisplayed
-            ? <CategoriesAndPrizes currentHackathon={currentHackathon}/>
+            ? <CategoriesAndPrizes/>
             : <></>
           }
         </>
@@ -71,7 +71,7 @@ const EventsPage = ( {currentHackathon} ) => {
             onClick={toggleDisplay}
             >registration</button>
             {isDisplayed
-	            ? <Registration currentHackathon={currentHackathon}/>
+	            ? <Registration/>
 	            : <></>
             }
           </>
@@ -82,8 +82,8 @@ const EventsPage = ( {currentHackathon} ) => {
     return (
         <>
             <NavigationBar/>
+            <h1 className="pagetitle">hackathon info</h1>
             <div className="pagebody"> 
-            <h1 className="pagetitle"> next hackathon: {currentHackathon.title} </h1>
               <ShowInfo/>
               <br/>
               <ShowCategoriesAndPrizes/>

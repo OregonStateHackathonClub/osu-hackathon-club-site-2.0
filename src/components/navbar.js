@@ -19,8 +19,8 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
-            <Nav.Link href="/">upcoming hackathon</Nav.Link>
-            <Nav.Link href="about">about</Nav.Link>
+            <Nav.Link href="/">hackathon info</Nav.Link>
+            <Nav.Link href="about">about the club</Nav.Link>
             <Nav.Link href="archive">archive</Nav.Link>
           </Nav>
         </Navbar.Collapse>
