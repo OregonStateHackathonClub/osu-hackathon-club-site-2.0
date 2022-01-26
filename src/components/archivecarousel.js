@@ -11,18 +11,18 @@ function ArchiveCarousel ( ) {
       <div className="infobody">
            <Carousel variant="dark" interval={null}>
               <Carousel.Item className='carousel-item'>
-                <h1>winter 2022 hackathon</h1>
+                <h1 className='hackathon-title'>winter 2022 hackathon</h1>
 
                   <img
                   className="carousel-images"
                   src={winter2022squarelogo}
                   alt="winter 2022 hackathon"/>
 
-                
+                <div className='archive-section'>   
                   <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Data</p>
-                
+                </div>
 
-
+            <div className='archive-section'> 
               <h2 className='carousel-section-header'>winning projects:</h2>
               
               <h3 className='place-title'>Overall 1st Place</h3>
@@ -36,23 +36,24 @@ function ArchiveCarousel ( ) {
 
               <h3 className='place-title'>New Student</h3>
               <a href="https://devpost.com/software/shopping-list-generator" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Shopping List Generator</a>
-              
+             </div> 
 
 
               </Carousel.Item>
               <Carousel.Item>
-                <h1>fall 2021 hackathon</h1>
+                <h1 className='hackathon-title'>fall 2021 hackathon</h1>
                   <img
                   className="carousel-images"
                   src={fall2021squarelogo}
                   alt="fall 2021 hackathon"
                 />
 
+              <div className='archive-section'>   
                 <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Energy/Climate</p>
-                  
+              </div>  
 
 
-
+              <div className="archive-section"> 
                 <h2 className='carousel-section-header'>winning projects:</h2>
 
                 <h3 className='place-title'>Overall 1st Place (Tie)</h3>
@@ -69,19 +70,24 @@ function ArchiveCarousel ( ) {
 
                 <h3 className='place-title'>New Student</h3>
                 <a href="https://devpost.com/software/pollutant-data-visualizer" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Pollutant Data Visualizer</a>
-              
+              </div>
 
               </Carousel.Item>
               <Carousel.Item>
-              <h1>summer 2021 hackathon</h1>
+              <h1 className='hackathon-title'>summer 2021 hackathon</h1>
                 <img
                   className="carousel-images"
                   src={summer2021squarelogo}
                   alt="summer 2021 hackathon"
                 />
 
+              <div className='archive-section'> 
                 <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Gaming</p>
- 
+              </div>
+
+
+              <div className='archive-section'>   
+
                 <h2 className='carousel-section-header'>winning projects:</h2>
                 <h3 className='place-title'>Overall 1st Place (Tie)</h3>
                 <a href="https://devpost.com/software/frodo-s-nine-lives" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Frodo's Nine Lives</a>
@@ -100,7 +106,7 @@ function ArchiveCarousel ( ) {
               
                 <h3 className='place-title'>Grad Student/Alumni</h3>
                 <a href="https://devpost.com/software/let-ava-game" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Let Ava Game!</a>
-              
+              </div>
 
               </Carousel.Item>
             </Carousel>

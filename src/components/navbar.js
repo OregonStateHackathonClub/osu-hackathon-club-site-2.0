@@ -4,7 +4,7 @@ import RightJellyBean from '../images/RightJellyBean.png';
 
 function NavigationBar() {
     return (
-      <Navbar variant="dark" bg="dark" expand="lg" fixed="top" >
+      <Navbar variant="dark" bg="dark" expand="lg" fixed="top" id="navbar">
         <Container> 
         <Navbar.Brand>          <img
               src={RightJellyBean}
