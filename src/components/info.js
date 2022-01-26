@@ -6,17 +6,22 @@ function Info ( {currentHackathon}) {
         <>
             <div className="infobody">
                 <h2> schedule </h2>
-                    <p> TBD </p>
-                    {/* <p> The next hackathon will be from {currentHackathon.startDate}    */}
-                    {/* to {currentHackathon.endDate} ! The winners will be announced on {currentHackathon.winnersAnnounced}.</p> */}
-            </div>
-            <div className="infobody">
+                    <p className='orange-body-text'> TBD </p>
+                    
+                    {/* <p className='officer-and-judge-name'> The next hackathon will be from X to X */}
+                    {/* The winners will be announced on X.</p> */}
+                    
                 <h2> judges</h2>
-                    <p> {currentHackathon.judges.join(", ")} </p> 
-            </div>
-            <div className="infobody">
+
+                    <p className='orange-body-text'> TBD </p> 
+                    
+                    {/* <p className='officer-and-judge-name'> name, occupation </p> */}
+
                 <h2> theme </h2>
-                    <p> {currentHackathon.theme}</p> 
+                    <p className='orange-body-text'> TBD</p> 
+                    
+                    {/* <p className='officer-and-judge-name'> TBD </p> */}
+
             </div>
         </>
         

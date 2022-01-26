@@ -15,6 +15,11 @@
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -22,11 +27,6 @@ body {
     background-color: white;
 }
 
-
-#beaverhacks {
-    font-size: 40px;
-    color: white;
-}
 
 button {
     background-color: #D63F09;
@@ -37,28 +37,25 @@ button {
     color: #ececec;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+h1 {
+    font-style: bold;
+    margin: 10px;
 }
 
-#circlelogo {
-    display: block;
-    width: 350;
-    height: 400px;
-    padding-top: 50px;
-    margin: auto;
+h2 {
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 10px
 }
 
-.pagebody {
-    background-color: #ECECEC;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    margin-top: 85px;
+p, h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.archive-dropdown {
+    background-color: white;
+    color: black;
 }
 
 .carousel-images {
@@ -69,25 +66,23 @@ a {
 
 
 .carousel-item {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
-p, h2 {
-    margin-left: 10%;
-    margin-right: 10%;
+.carousel-section-header {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 70px;
 }
 
-.pagetitle {
-    font-size: 35px;
-    margin: 30px;
-}
 
-.joinclubbuttons {
-    background-color: #DA704A;
-    margin-left: 0px;
-    margin-right: 0px;
+.footer_icons {
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
-
 
 .infobody {
     background-color: white;
@@ -101,16 +96,12 @@ p, h2 {
 
 }
 
-h2 {
-    font-style: italic;
-    margin-bottom: 10px;
-    margin-top: 10px
+.joinclubbuttons {
+    background-color: #DA704A;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-h1 {
-    font-style: bold;
-    margin: 10px;
-}
 
 .navbar-dark .navbar-nav .nav-link {
     color: white;
@@ -119,12 +110,57 @@ h1 {
 }
 
 
-.footer_icons {
-    height: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+.officer-title {
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+.orange-body-text {
+    color: #DA704A;
+    font-size: 20px;
+}
+
+.pagebody {
+    background-color: #ECECEC;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 85px;
+}
+
+.pagetitle {
+    font-size: 35px;
+    margin: 30px;
+}
+
+.past_themes {
+    color: #D63F09;
+    font-size: 30px;
+}
+
+.place-title {
+    padding-top: 40px;
+}
+
+#beaverhacks {
+    font-size: 40px;
+    color: white;
+}
+
+#circlelogo {
+    display: block;
+    width: 350;
+    height: 400px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+#dropdown-button {
+    background-color: #DA704A;
+    border: #DA704A;
 }
 
 #footer_text_club {
@@ -134,46 +170,3 @@ h1 {
 }
 
 
-#dropdown-button {
-    background-color: #DA704A;
-    border: #DA704A;
-}
-
-.archive-dropdown {
-    background-color: white;
-    color: black;
-}
-
-.past_themes {
-    color: #D63F09;
-    font-size: 50px;
-}
-
-.carousel-section-header {
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.carousel-winner-thumbnails {
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.winner-name {
-    color: #DA704A;
-    font-size: 20px;
-}
-
-.place-title {
-    padding-top: 20px;
-}
-
-.officer-title {
-    padding-top: 20px;
-    font-style: italic;
-    font-size: 20px;
-}
-
-.officer-name {
-    color: #DA704A;
-}

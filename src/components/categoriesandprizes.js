@@ -10,7 +10,7 @@ function CategoriesAndPrizes () {
 
                 <h2> overall category</h2>          
                     <p> 
-                        All team members are undergrad OSU students            </p>
+                        All team members are undergrad OSU students</p>
                 <h2>new student category</h2> 
                     <p> 
                     All team members are undergrad OSU students AND have not taken any 300-level courses. Teams that are eligible for this prize are also eligible for the Overall prize.
