@@ -2,7 +2,7 @@ import React from 'react';
 import NavigationBar from '../components/navbar';
 import logo from '../images/bh-logo-circle.png';
 import { useState } from 'react';
-import Info from '../components/info';
+import Info from '../components/hackathoninfo';
 import FAQ from '../components/faq';
 import Registration from '../components/registration';
 import CategoriesAndPrizes from '../components/categoriesandprizes';

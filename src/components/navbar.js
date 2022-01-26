@@ -4,10 +4,9 @@ import RightJellyBean from '../images/RightJellyBean.png';
 
 function NavigationBar() {
     return (
-      <Navbar variant="dark" bg="dark" expand="md" fixed="top" >
+      <Navbar variant="dark" bg="dark" expand="lg" fixed="top" >
         <Container> 
-        <Navbar.Brand id='beaverhacks' href="/">
-          <img
+        <Navbar.Brand>          <img
               src={RightJellyBean}
               width="60"
               height="60"
@@ -15,9 +14,11 @@ function NavigationBar() {
               alt="Jelly Bean Facing Right"
               id="navbarJellyBean"
             />{' '}
-      beaverhacks</Navbar.Brand>
+        </Navbar.Brand>
+        <Navbar.Brand id='beaverhacks' className="d-none d-sm-block" href="/">beaverhacks</Navbar.Brand>
+      
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+        <Navbar.Collapse id="basic-navbar-nav"  className="justify-content-end">
           <Nav>
             <Nav.Link href="/">hackathon info</Nav.Link>
             <Nav.Link href="about">about the club</Nav.Link>

@@ -1,40 +1,38 @@
-# Hackathon Club Website Development
+# Beaverhacks Website 
 
-## To test: 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/52d478f8-9eec-4470-90b1-f01516bda74c/deploy-status)](https://app.netlify.com/sites/osu-hackathon-club/deploys)
 
-On your local IDE simply download and open this file and enter command "npm install" and then "npm start" into your terminal. 
+## Link
+https://www.beaverhacks.com/
 
-## Structure
+## Contributors
+* Rachel Peterson
 
-All pages to be included (about, archive, events) are in separate folders within the src folder. Individual components of each page are in components folder, and any data that regularly needs updated (information about upcoming events, hackathon archives, etc. will dwell in the data folder for easy updating. 
+## Rules for Contributing
+1. Create a new branch for features to be added
+2. Name branch: Feature/FeatureToBeAdded (e.g. Feature/AddingNewSection)
+(Note: Make sure you don't lump a bunch of unrelated changes under one PR!)
+3. Make a Pull Request when ready to merge changes to the master branch
+4. On your PR, add a picture or quick video of your changes
+5. Under Reviewers (section on the top right), request kberba to review PR
+6. Let Rachel P. know of your changes on Slack! :)
+7. Feel free to add your name under Contributers on README.md
 
-### about
-
-About, join the club, and officers buttons load the content for these pages. 
-
-### archive
-
-Contains the archival information about past hackathons, to be generated dynamically from the data folder information. When a user selects the hackathon information that they want to retrieve, it will load that page. 
-
-### events
-
-Contains the current hackathon's information, generated from the stored data (this hackathon's theme, judges, schedule, etc.) and also statically (basic faq info that is the same across hackathons). Buttons for schedule, registration, and faq generate the content on this page.
-
-### navbar
-
-Pretty self-explanatory, this will mostly be styling work and a navigation component.
-
-### data 
-
-All data for current and past events will be stored in these three js files which correspond to the events, about, and archive pages. 
-
-## Figma prototype
-
-https://www.figma.com/file/RBj3T8CMvdqhnw3zEYxez1/beaverhacks-website?node-id=0%3A1
-
-
-## TBD:
-
-Responsive and mobile responsive
-Archive page
-Update content
+## Install 
+1. Install Node.js.
+2. Clone this repository:
+```
+git clone git@github.com:kberba/website-revamp.git
+```
+3. Move into the project root directory:
+```
+cd osu-hackathon-club-site
+```
+4. Install project dependencies (npm):
+```
+npm install
+```
+5. Build and run the site:
+```
+npm start
+```

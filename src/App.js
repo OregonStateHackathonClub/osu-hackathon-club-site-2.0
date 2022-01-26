@@ -2,8 +2,8 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ArchivePage from './pages/archive';
-import AboutPage from './pages/about';
-import EventsPage from './pages/events';
+import AboutPage from './pages/abouttheclub';
+import EventsPage from './pages/hackathoninfo';
 
 function App() {
   return (

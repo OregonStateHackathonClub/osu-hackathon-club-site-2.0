@@ -3,7 +3,7 @@ import NavigationBar from '../components/navbar';
 import { useState } from 'react';
 import Join from '../components/jointheclub';
 import Officers from '../components/officers';
-import AboutTheClub from '../components/abouttheclub';
+import AboutTheClub from '../components/missionandhistory';
 import Footer from '../components/footer';
 
 const AboutPage = () => {
@@ -61,6 +61,7 @@ const AboutPage = () => {
     return (
         <>
             <NavigationBar/>
+            
             <h1 className="pagetitle"> about the club </h1>
 
             <div className="pagebody">

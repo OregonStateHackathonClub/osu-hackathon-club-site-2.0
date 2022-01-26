@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AboutTheClub( {clubInfo} ) {
+function AboutTheClub() {
 
     return (
         <> 
