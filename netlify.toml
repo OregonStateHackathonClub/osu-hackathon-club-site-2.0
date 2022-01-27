@@ -1,8 +1,0 @@
-[build]
-  command = "npm run-script build"
-  publish = "out"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.js"
-  status = 200
