@@ -6,17 +6,17 @@ function NavigationBar() {
     return (
       <Navbar variant="dark" bg="dark" expand="lg" fixed="top" id="navbar">
         <Container> 
-        <Navbar.Brand>          <img
+        <Navbar.Brand>          
+          <img
               src={RightJellyBean}
               width="60"
               height="60"
               className="d-inline-block align-top"
               alt="Jelly Bean Facing Right"
               id="navbarJellyBean"
-            />{' '}
+          />{' '}
         </Navbar.Brand>
         <Navbar.Brand id='beaverhacks' className="d-none d-sm-block" href="/">beaverhacks</Navbar.Brand>
-      
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav"  className="justify-content-end">
           <Nav>

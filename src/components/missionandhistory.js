@@ -10,7 +10,6 @@ function AboutTheClub() {
                         Our mission is to strengthen the Oregon State University community by fostering connections between students and building stronger programming skills through quarterly coding competitions and workshops.
                     </p>
             </div> 
-
             <div className="infobody">
                 <h2>our start</h2>
                 <p> 

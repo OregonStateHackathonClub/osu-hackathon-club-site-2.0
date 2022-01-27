@@ -6,7 +6,7 @@ function Info () {
         <>
             <div className="infobody">
                 <h1>spring 2022 hackathon</h1>
-                <br></br>
+                <br/>
                 <h2> schedule </h2>
                     <p className='orange-body-text'> TBD </p>
                     
@@ -14,7 +14,6 @@ function Info () {
                     {/* The winners will be announced on X.</p> */}
                     
                 <h2> judges</h2>
-
                     <p className='orange-body-text'> TBD </p> 
                     
                     {/* <p className='officer-and-judge-name'> name, occupation </p> */}

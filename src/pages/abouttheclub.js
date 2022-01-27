@@ -61,11 +61,8 @@ const AboutPage = () => {
     return (
         <>
             <NavigationBar/>
-            
             <h1 className="pagetitle"> about the club </h1>
-
             <div className="pagebody">
-
               <ShowAboutClub/>
               <br/>
               <ShowJoinClub/>
