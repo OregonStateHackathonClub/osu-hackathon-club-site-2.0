@@ -171,13 +171,14 @@ p, h2 {
 
 .archive-section {
     border-radius: 15px;
-    padding: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-bottom: 40px;
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-top: 40px;
     margin-bottom: 40px;
-    box-shadow: 0px 2px 10px 1px rgb(220,220,220);
+    box-shadow: 0px 2px 5px 1px rgb(220,220,220);
 }
 
 #beaverhacks {
