@@ -8,7 +8,7 @@ function Info () {
                 <h1>spring 2022 hackathon</h1>
                 <br/>
                 <h2> schedule </h2>
-
+                <br/> 
                     <p className=''> Opening Ceremony Kick-off / Hackathon starts!:  </p>
                     <p className='orange-body-text'> Wednesday, March 23rd - 5:00 PM PST (8:00 PM EST) </p>
                     <br/>
@@ -22,11 +22,21 @@ function Info () {
                     {/* The winners will be announced on X.</p> */}
                     
                 <h2> judges</h2>
-                    <p className='orange-body-text'> TBD </p> 
+                    <br/> 
+                    <p className='orange-body-text'>  Diego Ponce - Data Engineer @ Intuit</p> 
+                    <br/> 
+                    <p className='orange-body-text'>  Justin Dow - Identity Engineer @ Airbnb</p> 
+                    <br/> 
+                    <p className='orange-body-text'>  Kyle Schafer - Senior Software Engineer @ Shelter Insurance</p> 
+                    <br/> 
+                    <p className='orange-body-text'>  Sola Chang - Data Engineer @ UI/UX Designer @ Blizzard</p> 
+                    <br/> 
+
                     
                     {/* <p className='officer-and-judge-name'> name, occupation </p> */}
 
                 <h2> theme </h2>
+                    <br/> 
                     <p className='orange-body-text'> 🎮 Gamification!! 🎮 </p> 
                     
                     {/* <p className='officer-and-judge-name'> TBD </p> */}
