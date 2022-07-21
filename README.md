@@ -22,7 +22,7 @@ https://www.beaverhacks.com/
 1. Install Node.js.
 2. Clone this repository:
 ```
-git clone git@github.com:kberba/website-revamp.git
+gh repo clone OregonStateHackathonClub/osu-hackathon-club-site-2.0
 ```
 3. Move into the project root directory:
 ```
