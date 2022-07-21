@@ -26,7 +26,7 @@ gh repo clone OregonStateHackathonClub/osu-hackathon-club-site-2.0
 ```
 3. Move into the project root directory:
 ```
-cd osu-hackathon-club-site
+cd osu-hackathon-club-site-2.0
 ```
 4. Install project dependencies (npm):
 ```
