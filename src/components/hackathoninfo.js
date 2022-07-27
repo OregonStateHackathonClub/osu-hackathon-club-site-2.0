@@ -23,13 +23,11 @@ function Info () {
                     
                 <h2> judges</h2>
                     <br/> 
-                    <p className='orange-body-text'>  Diego Ponce - Data Engineer @ Intuit</p> 
+                    <p className='orange-body-text'>  Zaki Ahmed @ Amazon</p> 
                     <br/> 
-                    <p className='orange-body-text'>  Justin Dow - Identity Engineer @ Airbnb</p> 
+                    <p className='orange-body-text'>  Aaron Ennis @ Verizon </p> 
                     <br/> 
-                    <p className='orange-body-text'>  Kyle Schafer - Senior Software Engineer @ Shelter Insurance</p> 
-                    <br/> 
-                    <p className='orange-body-text'>  Sola Chang - Data Engineer @ UI/UX Designer @ Blizzard</p> 
+                    <p className='orange-body-text'>  Wilkins White @ Daxbot</p> 
                     <br/> 
 
                     
@@ -37,7 +35,7 @@ function Info () {
 
                 <h2> theme </h2>
                     <br/> 
-                    <p className='orange-body-text'> 🎮 Gamification!! 🎮 </p> 
+                    <p className='orange-body-text'> Life Hackathon!! </p> 
                     
                     {/* <p className='officer-and-judge-name'> TBD </p> */}
 
