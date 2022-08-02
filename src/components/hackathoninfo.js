@@ -23,11 +23,17 @@ function Info () {
                     
                 <h2> judges</h2>
                     <br/> 
-                    <p className='orange-body-text'>  Zaki Ahmed @ Amazon</p> 
+                    <p className='orange-body-text'>  David Rider @ Microsoft, Software Engineer</p> 
                     <br/> 
-                    <p className='orange-body-text'>  Aaron Ennis @ Verizon </p> 
+                    <p className='orange-body-text'>   Nate Kimball @ Microsoft, Software Engineer</p> 
                     <br/> 
-                    <p className='orange-body-text'>  Wilkins White @ Daxbot</p> 
+                    <p className='orange-body-text'>  Jonah Spencer @ GitHub, Software Engineer</p> 
+                    <br/> 
+                    <p className='orange-body-text'>  Zaki Ahmed @ Amazon, Software Engineer</p> 
+                    <br/> 
+                    <p className='orange-body-text'>  Aaron Ennis @ Verizon, Software Engineer</p> 
+                    <br/> 
+                    <p className='orange-body-text'>  Wilkins White @ Daxbot, Senior Firmware Engineer</p> 
                     <br/> 
 
                     
