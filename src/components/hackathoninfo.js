@@ -5,7 +5,7 @@ function Info () {
     return (
         <>
             <div className="infobody">
-                <h1>spring 2022 hackathon</h1>
+                <h1>Fall 2022 hackathon</h1>
                 <br/>
                 <h2> schedule </h2>
                 <br/> 
