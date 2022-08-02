@@ -26,15 +26,15 @@ const Officers = () => {
             </Row> 
             <Row> 
                 <Col><p className='officer-title'> Secretary: </p> </Col>
-                <Col><p className='officer-name'> TBD </p> </Col> 
+                <Col><p className='officer-name'> Open position </p> </Col> 
             </Row>
             <Row> 
                 <Col><p className='officer-title'> Treasurer: </p> </Col>
-                <Col><p className='officer-name'> TBD </p> </Col> 
+                <Col><p className='officer-name'> Open position </p> </Col> 
             </Row>         
             <Row> 
-                <Col><p className='officer-title'> Communication: </p></Col>
-                <Col><p className='officer-name'> TBD </p></Col> 
+                <Col><p className='officer-title'> Communication Coordinator: </p></Col>
+                <Col><p className='officer-name'> Alexander Penado </p></Col> 
             </Row>   
             <Row> 
                 <Col><p className='officer-title'> Club Advisor: </p></Col>
