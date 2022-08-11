@@ -37,6 +37,8 @@ function Info () {
                     <br/> 
                     <p className='orange-body-text'>  Wilkins White @ Daxbot, Senior Firmware Engineer</p> 
                     <br/> 
+                        <p className='orange-body-text'> Jacob Eckroth @ Amazon, Software Engineer</p> 
+                    <br/> 
 
                     
                     {/* <p className='officer-and-judge-name'> name, occupation </p> */}
