@@ -1,4 +1,6 @@
 import React from 'react';
+import BeaverHackPoster from "../images/BeaverHackPoster.png";
+
 
 function Info () {
 
@@ -9,6 +11,13 @@ function Info () {
                 <br/>
                 <h2> schedule </h2>
                 <br/> 
+        <h1 className='hackathon-title'>winter 2022 hackathon</h1>
+
+                  <img
+                  className="carousel-images"
+                  src={BeaverHackPoster}
+                  alt="Fall 2022 hackathon"/>
+                      
                     <p className=''> Opening Ceremony Kick-off / Hackathon starts!:  </p>
                     <p className='orange-body-text'> Wednesday, March 23rd - 5:00 PM PST (8:00 PM EST) </p>
                     <br/>
