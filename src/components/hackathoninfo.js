@@ -10,14 +10,7 @@ function Info () {
                 <h1>Fall 2022 Hackathon</h1>
                 <br/>
                 <h2> schedule </h2>
-                <br/> 
-        <h1 className='hackathon-title'>winter 2022 hackathon</h1>
-
-                  <img
-                  className="carousel-images"
-                  src={BeaverHackPoster}
-                  alt="Fall 2022 hackathon"/>
-                      
+                <br/>                       
                     <p className=''> Opening Ceremony Kick-off / Hackathon starts!:  </p>
                     <p className='orange-body-text'> Thursday, October 6th - 5:00 PM PST (8:00 PM EST) </p>
                     <br/>
