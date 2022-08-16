@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cd297448.chunk.css",
-    "main.js": "/static/js/main.fb425c76.chunk.js",
-    "main.js.map": "/static/js/main.fb425c76.chunk.js.map",
+    "main.js": "/static/js/main.61f5a2a1.chunk.js",
+    "main.js.map": "/static/js/main.61f5a2a1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a0ed6bd5.js",
     "runtime-main.js.map": "/static/js/runtime-main.a0ed6bd5.js.map",
     "static/css/2.9ec07ce6.chunk.css": "/static/css/2.9ec07ce6.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.9ec07ce6.chunk.css.map": "/static/css/2.9ec07ce6.chunk.css.map",
     "static/css/main.cd297448.chunk.css.map": "/static/css/main.cd297448.chunk.css.map",
     "static/js/2.a08d736e.chunk.js.LICENSE.txt": "/static/js/2.a08d736e.chunk.js.LICENSE.txt",
+    "static/media/BeaverHackPoster.5d373f94.png": "/static/media/BeaverHackPoster.5d373f94.png",
     "static/media/App.css": "/static/media/JetBrainsMonoNL-Thin.e1e78eb6.svg",
     "static/media/RightJellyBean.7580930f.png": "/static/media/RightJellyBean.7580930f.png",
     "static/media/bh-logo-circle.8ac23bcc.png": "/static/media/bh-logo-circle.8ac23bcc.png",
@@ -26,6 +27,6 @@
     "static/css/2.9ec07ce6.chunk.css",
     "static/js/2.a08d736e.chunk.js",
     "static/css/main.cd297448.chunk.css",
-    "static/js/main.fb425c76.chunk.js"
+    "static/js/main.61f5a2a1.chunk.js"
   ]
 }
