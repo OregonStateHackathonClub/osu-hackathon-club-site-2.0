@@ -32,7 +32,9 @@ cd osu-hackathon-club-site-2.0
 ```
 npm install
 ```
-5. Build and run the site:
+5. Create build for changes made:
 ```
-npm start
+npm run build
 ```
+6. Commit changes and push to Github
+
