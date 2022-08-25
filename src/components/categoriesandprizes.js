@@ -66,13 +66,13 @@ function CategoriesAndPrizes () {
                         of the "Overall" prizes are ineligible for this prize.
                         </p>
                         <br/> 
-                     <h2>Most Social Good/ Most Creative Project</h2>
+                     <h2>most social good/ most creative projects</h2>
                         <p> 
                        These awards will go to projects that present solutions that are beneficial to social good annd creative projects that deserve recognition. 
         Graduate and alumni teams are ineligible for this prize. If a team has won in the first place, second place, third place or new student category the team is ineligible for this prize. 
                         </p>
                         <br/> 
-                    <h2>Raffle</h2>
+                    <h2>raffle</h2>
                         <p> 
                         Raffles will be offered during the hackathon to win LeetCode Premium subscriptions and copies of Cracking the Coding Interview. Participants will enter into raffles individually (not as a team). Graduate and alumni students may participate in raffles.   
                         </p>
