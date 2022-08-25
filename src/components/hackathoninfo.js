@@ -1,6 +1,4 @@
 import React from 'react';
-import BeaverHackPoster from "../images/BeaverHackPoster.png";
-
 
 function Info () {
 
@@ -8,6 +6,9 @@ function Info () {
         <>
             <div className="infobody">
                 <h1>Fall 2022 Hackathon</h1>
+       
+        <img src="https://github.com/OregonStateHackathonClub/osu-hackathon-club-site-2.0/blob/main/src/images/Screenshot%202022-08-23%20115754.png?raw=true" id="circlelogo" alt="Fall 2022 Hackathon Poster">
+                      
                 <br/>
                 <h2> schedule </h2>
                 <br/>                       
