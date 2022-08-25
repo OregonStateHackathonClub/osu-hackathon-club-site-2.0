@@ -7,7 +7,7 @@ function CategoriesAndPrizes () {
         <> 
             <h1>categories</h1>
             <div className="infobody">
-                <h2> Total of $1200 in prizes to be won!</h2> 
+                
                 <h2> overall category</h2>          
                     <p> 
                         All team members are undergrad OSU students
@@ -33,6 +33,7 @@ function CategoriesAndPrizes () {
 
             <h1>prizes</h1>
             <div className="infobody">
+            <h2> Total of $1200 in prizes to be won!</h2> 
                     <h2>first place - overall</h2>
                         <p> 
                         This prize goes to the highest-scoring submission. It is available to all undergraduate 
