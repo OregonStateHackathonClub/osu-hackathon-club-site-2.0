@@ -7,7 +7,7 @@ function CategoriesAndPrizes () {
         <> 
             <h1>categories</h1>
             <div className="infobody">
-
+                <h2> Total of $1200 in prizes to be won!</h2> 
                 <h2> overall category</h2>          
                     <p> 
                         All team members are undergrad OSU students
@@ -64,6 +64,17 @@ function CategoriesAndPrizes () {
                         <p> 
                         This award goes to the highest-scoring new student team. New student teams that won any 
                         of the "Overall" prizes are ineligible for this prize.
+                        </p>
+                        <br/> 
+                     <h2>Most Social Good/ Most Creative Project</h2>
+                        <p> 
+                       These awards will go to projects that present solutions that are beneficial to social good annd creative projects that deserve recognition. 
+        Graduate and alumni teams are ineligible for this prize. If a team has won in the first place, second place, third place or new student category the team is ineligible for this prize. 
+                        </p>
+                        <br/> 
+                    <h2>Raffle</h2>
+                        <p> 
+                        Raffles will be offered during the hackathon to win LeetCode Premium subscriptions and copies of Cracking the Coding Interview. Participants will enter into raffles individually (not as a team). Graduate and alumni students may participate in raffles.   
                         </p>
                         <br/> 
 
