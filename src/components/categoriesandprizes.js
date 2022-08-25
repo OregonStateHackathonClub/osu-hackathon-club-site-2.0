@@ -69,7 +69,7 @@ function CategoriesAndPrizes () {
                         <br/> 
                      <h2>most social good/ most creative projects</h2>
                         <p> 
-                       These awards will go to projects that present solutions that are beneficial to social good annd creative projects that deserve recognition. 
+                       These awards go to projects that promote social good and creative projects that deserve recognition. 
         Graduate and alumni teams are ineligible for this prize. If a team has won in the first place, second place, third place or new student category the team is ineligible for this prize. 
                         </p>
                         <br/> 
