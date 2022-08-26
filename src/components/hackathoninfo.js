@@ -1,5 +1,5 @@
 import React from 'react';
-import Screenshot 2022-08-23 115754 from '../images/Screenshot 2022-08-23 115754.png'
+import fall2022poster from '../images/fall2022poster.png'
 
 function Info () {
 
@@ -9,7 +9,7 @@ function Info () {
                 <h1>Fall 2022 Hackathon</h1>
                  <img
                   className="carousel-images"
-                  src={Screenshot 2022-08-23 115754}
+                  src={fall2022poster}
                   alt="fall 2022 hackathon"/>
                       
                 <br/>
