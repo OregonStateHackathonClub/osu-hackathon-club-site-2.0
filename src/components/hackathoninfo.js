@@ -1,9 +1,5 @@
 import React from 'react';
 
-var up = document.getElementById('GFG_UP'); 
-        up.innerHTML = "Click on the button to add image element"; 
-        var down = document.getElementById('GFG_DOWN'); 
-
 function Info () {
 
     return (
