@@ -6,7 +6,11 @@ function Info () {
         <>
             <div className="infobody">
                 <h1>Fall 2022 Hackathon</h1>
-          document.write('<img src="https://github.com/OregonStateHackathonClub/osu-hackathon-club-site-2.0/blob/dfa4bc5f20eb110ef0bfa0fce56e5dfc0478fdec/src/images/Screenshot%202022-08-23%20115754.png">');
+                 <img
+                  className="carousel-images"
+                  src={Screenshot 2022-08-23 115754}
+                  alt="fall 2022 hackathon"/>
+                      
                 <br/>
                 <h2> schedule </h2>
                 <br/>                       
