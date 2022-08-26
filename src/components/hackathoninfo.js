@@ -1,4 +1,5 @@
 import React from 'react';
+import Screenshot 2022-08-23 115754 from '../images/Screenshot 2022-08-23 115754.png'
 
 function Info () {
 
