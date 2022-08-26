@@ -6,6 +6,9 @@ function Info () {
         <>
             <div className="infobody">
                 <h1>Fall 2022 Hackathon</h1>
+            const img = document.createElement("img");
+            img.src = "https://github.com/OregonStateHackathonClub/osu-hackathon-club-site-2.0/blob/dc3065c8e5d16848376e352426926581ebd86cf7/src/images/Screenshot%202022-08-23%20115754.png";
+            document.body.appendChild(img);
                 <br/>
                 <h2> schedule </h2>
                 <br/>                       
