@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.34c0cf1c.chunk.css",
-    "main.js": "/static/js/main.7d4c6c86.chunk.js",
-    "main.js.map": "/static/js/main.7d4c6c86.chunk.js.map",
+    "main.js": "/static/js/main.a8b375a8.chunk.js",
+    "main.js.map": "/static/js/main.a8b375a8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a0ed6bd5.js",
     "runtime-main.js.map": "/static/js/runtime-main.a0ed6bd5.js.map",
     "static/css/2.9ec07ce6.chunk.css": "/static/css/2.9ec07ce6.chunk.css",
@@ -18,7 +18,7 @@
     "static/media/RightJellyBean.7580930f.png": "/static/media/RightJellyBean.7580930f.png",
     "static/media/bh-logo-circle.8ac23bcc.png": "/static/media/bh-logo-circle.8ac23bcc.png",
     "static/media/fall2021squarelogo.1f3057fd.png": "/static/media/fall2021squarelogo.1f3057fd.png",
-    "static/media/fall2022poster.2a096173.png": "/static/media/fall2022poster.2a096173.png",
+    "static/media/fall2022poster.edc6912b.png": "/static/media/fall2022poster.edc6912b.png",
     "static/media/summer2021squarelogo.c0035f6a.png": "/static/media/summer2021squarelogo.c0035f6a.png",
     "static/media/winter2022squarelogo.b6f0cf33.png": "/static/media/winter2022squarelogo.b6f0cf33.png"
   },
@@ -27,6 +27,6 @@
     "static/css/2.9ec07ce6.chunk.css",
     "static/js/2.7a5d081a.chunk.js",
     "static/css/main.34c0cf1c.chunk.css",
-    "static/js/main.7d4c6c86.chunk.js"
+    "static/js/main.a8b375a8.chunk.js"
   ]
 }
