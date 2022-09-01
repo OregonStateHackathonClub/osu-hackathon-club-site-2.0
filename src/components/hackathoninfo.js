@@ -1,5 +1,5 @@
 import React from 'react';
-import fall2022poster from '../images/fall2022posternew.png'
+import fall2022posternew from '../images/fall2022posternew.png'
 
 function Info () {
 
