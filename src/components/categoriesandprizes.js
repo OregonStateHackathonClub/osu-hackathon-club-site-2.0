@@ -63,8 +63,8 @@ function CategoriesAndPrizes () {
                 
                     <h2>new student</h2>
                         <p> 
-                        This award goes to the highest-scoring new student team. New student teams that won any 
-                        of the "Overall" prizes are ineligible for this prize.
+                        This award goes to high-scoring new student teams. There will be a first place, second place and third place
+                        prize for this category. Teams that won any of the "Overall" prizes are ineligible for this prize. 
                         </p>
                         <br/> 
                      <h2>most social good/ most creative projects</h2>
