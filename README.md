@@ -6,7 +6,7 @@
 https://www.beaverhacks.com/
 
 ## Contributors
-* Rachel Peterson
+* Christina Persaud
 
 ## Rules for Contributing
 1. Create a new branch for features to be added
