@@ -1,7 +1,7 @@
 import React from 'react';
 import NavigationBar from '../components/navbar';
 import logo from '../images/bh-logo-circle.png';
-import fall2022posternew from '../images/fall2022posternew.png';
+import beaverhackswinter23 from '../images/beaverhackswinter23.png';
 import { useState } from 'react';
 import Info from '../components/hackathoninfo';
 import FAQ from '../components/faq';
@@ -93,7 +93,7 @@ const EventsPage = ( ) => {
               <br/>
               <ShowRegistration/>
               <br/>
-              <img src={fall2022posternew} id="circlelogo" alt="fall2022flyer"/>
+              <img src={beaverhackswinter23} id="circlelogo" alt="beaverhackswinter23"/>
             </div>
             <Footer/>
         </>
