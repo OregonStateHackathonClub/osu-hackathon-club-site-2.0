@@ -9,7 +9,7 @@ function Info () {
                 <h1>Winter 2023 Hackathon</h1>
                  <img
                   className="carousel-images"
-                  src={fall2022posternew}
+                  src={beaverhackswinter23}
                   alt="Winter 2023 hackathon"/>
                       
                 <br/>
