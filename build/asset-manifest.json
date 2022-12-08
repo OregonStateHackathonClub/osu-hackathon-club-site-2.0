@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34c0cf1c.chunk.css",
+    "main.js": "/static/js/main.5b98827a.chunk.js",
+    "main.js.map": "/static/js/main.5b98827a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a0ed6bd5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a0ed6bd5.js.map",
+    "static/css/2.9ec07ce6.chunk.css": "/static/css/2.9ec07ce6.chunk.css",
+    "static/js/2.7a5d081a.chunk.js": "/static/js/2.7a5d081a.chunk.js",
+    "static/js/2.7a5d081a.chunk.js.map": "/static/js/2.7a5d081a.chunk.js.map",
+    "static/js/3.cc51329d.chunk.js": "/static/js/3.cc51329d.chunk.js",
+    "static/js/3.cc51329d.chunk.js.map": "/static/js/3.cc51329d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.9ec07ce6.chunk.css.map": "/static/css/2.9ec07ce6.chunk.css.map",
+    "static/css/main.34c0cf1c.chunk.css.map": "/static/css/main.34c0cf1c.chunk.css.map",
+    "static/js/2.7a5d081a.chunk.js.LICENSE.txt": "/static/js/2.7a5d081a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/JetBrainsMonoNL-Thin.a730db38.ttf",
+    "static/media/RightJellyBean.7580930f.png": "/static/media/RightJellyBean.7580930f.png",
+    "static/media/beaverhackswinter23.a6981be0.png": "/static/media/beaverhackswinter23.a6981be0.png",
+    "static/media/bh-logo-circle.8ac23bcc.png": "/static/media/bh-logo-circle.8ac23bcc.png",
+    "static/media/fall2021squarelogo.1f3057fd.png": "/static/media/fall2021squarelogo.1f3057fd.png",
+    "static/media/summer2021squarelogo.c0035f6a.png": "/static/media/summer2021squarelogo.c0035f6a.png",
+    "static/media/winter2022squarelogo.b6f0cf33.png": "/static/media/winter2022squarelogo.b6f0cf33.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0ed6bd5.js",
+    "static/css/2.9ec07ce6.chunk.css",
+    "static/js/2.7a5d081a.chunk.js",
+    "static/css/main.34c0cf1c.chunk.css",
+    "static/js/main.5b98827a.chunk.js"
+  ]
+}
