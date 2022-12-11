@@ -7,7 +7,7 @@ function Registration() {
                 <h2>how to register:</h2>
                 {/* Update Devpost Link Each Hackathon */}
                 <p>To join the next hackathon, sign up for Beaverhacks on <button className="joinclubbuttons"><a href="https://devpost.com/hackathons?organization=Oregon%20State%20University%20Hackathon%20Club" target="_blank" rel="noreferrer noopener">DevPost</a></button>, fill out the registration form 
-                    <button className="joinclubbuttons"><a href="https://forms.gle/apEuL3R4P7LxjWoEA" target="_blank" rel="noreferrer noopener"> Google Form </a></button>
+                    <button className="joinclubbuttons"><a href="https://docs.google.com/forms/d/e/1FAIpQLScnCQo4M1NXw6Yt4nPIMq8CiY3FfS0AIKqRqKsZufQ0hZCX1g/viewform" target="_blank" rel="noreferrer noopener"> Google Form </a></button>
                     and join the club via <button className="joinclubbuttons"><a href="https://apps.ideal-logic.com/osusli" target="_blank" rel="noreferrer noopener">IdealLogic</a></button></p>
 
             </div>
