@@ -19,10 +19,10 @@ function Info () {
                     <p className='orange-body-text'> January 12,2023 </p>
                     <br/>
                     <p className=''> Hacking ends / Project Submission Deadline: </p>
-                    <p className='orange-body-text'> January 15, 2023 </p>
+                    <p className='orange-body-text'> January 15, 2023</p>
                     <br/>
                     <p className=''> Project Demos / Q&A:</p>
-                    <p className='orange-body-text'> TBD </p>
+                    <p className='orange-body-text'> January 15, 2023 </p>
                     <br/>
                     {/* <p className='officer-and-judge-name'> The next hackathon will be from X to X */}
                     {/* The winners will be announced on X.</p> */}
