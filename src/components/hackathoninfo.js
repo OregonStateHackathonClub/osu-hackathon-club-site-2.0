@@ -16,10 +16,10 @@ function Info () {
                 <h2> schedule </h2>
                 <br/>                       
                     <p className=''> Opening Ceremony Kick-off / Hackathon starts!:  </p>
-                    <p className='orange-body-text'> TBD </p>
+                    <p className='orange-body-text'> January 12,2023 </p>
                     <br/>
                     <p className=''> Hacking ends / Project Submission Deadline: </p>
-                    <p className='orange-body-text'> TBD</p>
+                    <p className='orange-body-text'> January 15, 2023 </p>
                     <br/>
                     <p className=''> Project Demos / Q&A:</p>
                     <p className='orange-body-text'> TBD </p>
@@ -37,7 +37,7 @@ function Info () {
 
                 <h2> theme </h2>
                     <br/> 
-                    <p className='orange-body-text'> Life Hackathon!! </p> 
+                    <p className='orange-body-text'> The theme will be released the day of the hackathon! </p> 
                     
                     {/* <p className='officer-and-judge-name'> TBD </p> */}
 
