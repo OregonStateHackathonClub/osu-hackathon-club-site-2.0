@@ -34,7 +34,7 @@ const Officers = () => {
             </Row>         
             <Row> 
                 <Col><p className='officer-title'> Communication Coordinator: </p></Col>
-                <Col><p className='officer-name'> Alexander Penado </p></Col> 
+                <Col><p className='officer-name'> Zac Maes </p></Col> 
             </Row>   
             <Row> 
                 <Col><p className='officer-title'> Club Advisor: </p></Col>
