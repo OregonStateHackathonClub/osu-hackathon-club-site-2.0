@@ -3,14 +3,44 @@ import { Carousel } from 'react-bootstrap';
 import winter2022squarelogo from "../images/winter2022squarelogo.png";
 import fall2021squarelogo from "../images/fall2021squarelogo.png";
 import summer2021squarelogo from "../images/summer2021squarelogo.png";
-
+import fall2022posternew from "../images/fall2022posternew.png";
 
 function ArchiveCarousel ( ) {
 
     return (
       <div className="infobody">
            <Carousel variant="dark" interval={2000}>
-              <Carousel.Item className='carousel-item'>
+        <Carousel.Item className='carousel-item'>
+                <h1 className='hackathon-title'>fall 2022 hackathon</h1>
+
+                  <img
+                  className="carousel-images"
+                  src={fall2022posternew}
+                  alt="fall 2022 hackathon"/>
+
+                <div className='archive-section'>   
+                  <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Data</p>
+                </div>
+
+                <div className='archive-section'> 
+                  <h2 className='carousel-section-header'>winning projects:</h2>
+                  
+                  <h3 className='place-title'>Overall 1st Place</h3>
+                  <a href="https://devpost.com/software/gobeavs" target="_blank" rel="noreferrer noopener" className='orange-body-text'>goBeavs</a>
+
+                  <h3 className='place-title'>Overall 2nd Place</h3>
+                  <a href="https://devpost.com/software/beaver-eats" target="_blank" rel="noreferrer noopener" className='orange-body-text'>journal.ai</a>
+
+                  <h3 className='place-title'>Overall 3rd Place</h3>
+                  <a href="https://devpost.com/software/ai-journal" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Earthquake Predicteur</a>
+
+                  <h3 className='place-title'>New Student</h3>
+                  <a href="https://devpost.com/software/to-da-loo" target="_blank" rel="noreferrer noopener" className='orange-body-text'>To Da Loo</a>
+                </div> 
+
+
+              </Carousel.Item>
+              <Carousel.Item>
                 <h1 className='hackathon-title'>winter 2022 hackathon</h1>
 
                   <img
