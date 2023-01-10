@@ -15,7 +15,7 @@ function Registration() {
                 <h2>find your team: </h2>
 
                 {/* Update Devpost Link Each Hackathon */}
-                <p>Use <button className="joinclubbuttons"><a href="https://osu-beaverhacks-fall-2022.devpost.com/?preview_token=9ChURY9lkxMQX2P0i920aYInfeO27UInbpLK3Ja69HA%3D" target="_blank" rel="noreferrer noopener">DevPost</a></button>, <button className="joinclubbuttons"><a href="https://discord.gg/pCesGNGjPc" target="_blank" rel="noreferrer noopener">Discord</a></button>, or <button className="joinclubbuttons"><a href="https://osu-hackathon.slack.com/" target="_blank" rel="noreferrer noopener">Slack</a></button> to find teammates.</p>
+                <p>Use <button className="joinclubbuttons"><a href="https://beaverhacks-winter2023.devpost.com/" target="_blank" rel="noreferrer noopener">DevPost</a></button>, <button className="joinclubbuttons"><a href="https://discord.gg/pCesGNGjPc" target="_blank" rel="noreferrer noopener">Discord</a></button>, or <button className="joinclubbuttons"><a href="https://osu-hackathon.slack.com/" target="_blank" rel="noreferrer noopener">Slack</a></button> to find teammates.</p>
             </div>
         </>
     );
