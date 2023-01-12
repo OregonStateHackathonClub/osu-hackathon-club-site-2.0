@@ -29,14 +29,13 @@ function Info () {
                     
                 <h2> judges</h2>
                     <br/> 
-                     <p className='orange-body-text'> </p>
-                     <p className='officer-and-judge-name'> John McBride, Software Engineer at Amazon </p>
-                     <p className='officer-and-judge-name'> James Yang, Data Scientist at Intel</p>
-                     <p className='officer-and-judge-name'> Austin McCalley, Software Engineer at Intel</p>
-                     <p className='officer-and-judge-name'> Beth Myre, Software Engineer at Viasat</p>
-                     <p className='officer-and-judge-name'> Chris Merill, Software Engineer at Intel</p>
-                     <p className='officer-and-judge-name'> Noah Sapse, Incoming Software Engineer at Alteryx</p>
-                     <p className='officer-and-judge-name'> Evgeniy Kravtsov, Senior Software Engineer at Sberdevices</p>
+                     <p className='orange-body-text'> John McBride, Software Engineer at Amazon </p>
+                     <p className='orange-body-text'> James Yang, Data Scientist at Intel</p>
+                     <p className='orange-body-text'> Austin McCalley, Software Engineer at Intel</p>
+                     <p className='orange-body-text'> Beth Myre, Software Engineer at Viasat</p>
+                     <p className='orange-body-text'> Chris Merill, Software Engineer at Intel</p>
+                     <p className='orange-body-text'> Noah Sapse, Incoming Software Engineer at Alteryx</p>
+                     <p className='orange-body-text'> Evgeniy Kravtsov, Senior Software Engineer at Sberdevices</p>
                     <br/>   
                     {/* <p className='officer-and-judge-name'>  </p> */}
 
