@@ -16,7 +16,7 @@ function Info () {
                 <h2> schedule </h2>
                 <br/>                       
                     <p className=''> Opening Ceremony Kick-off / Hackathon starts!:  </p>
-                    <p className='orange-body-text'> January 12,2023 5:00 PM PST</p>
+                    <p className='orange-body-text'> January 12, 2023 5:00 PM PST</p>
                     <br/>
                     <p className=''> Hacking ends / Project Submission Deadline: </p>
                     <p className='orange-body-text'> January 15, 2023 3:00 PM PST</p>
