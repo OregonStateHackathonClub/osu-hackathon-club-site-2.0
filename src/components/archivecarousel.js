@@ -4,13 +4,42 @@ import winter2022squarelogo from "../images/winter2022squarelogo.png";
 import fall2021squarelogo from "../images/fall2021squarelogo.png";
 import summer2021squarelogo from "../images/summer2021squarelogo.png";
 import fall2022posternew from "../images/fall2022posternew.png";
+import beaverhackswinter23 from "../images/beaverhackswinter23.png";
 
 function ArchiveCarousel ( ) {
 
     return (
       <div className="infobody">
            <Carousel variant="dark" interval={2000}>
-        <Carousel.Item className='carousel-item'>
+             <Carousel.Item className='carousel-item'>
+                <h1 className='hackathon-title'>winter 2023 hackathon</h1>
+
+                  <img
+                  className="carousel-images"
+                  src={beaverhackswinter23}
+                  alt="winter 2023 hackathon"/>
+
+                <div className='archive-section'>   
+                  <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Data</p>
+                </div>
+
+                <div className='archive-section'> 
+                  <h2 className='carousel-section-header'>winning projects:</h2>
+                  
+                  <h3 className='place-title'>Overall 1st Place</h3>
+                  <a href="https://devpost.com/software/affective" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Affective</a>
+
+                  <h3 className='place-title'>Overall 2nd Place</h3>
+                  <a href="https://devpost.com/software/vr-therapy-info" target="_blank" rel="noreferrer noopener" className='orange-body-text'>VR Therapy Info</a>
+
+                  <h3 className='place-title'>Overall 3rd Place</h3>
+                  <a href="https://devpost.com/software/health-wrapped" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Health Wrapped</a>
+
+                  <h3 className='place-title'>New Student</h3>
+                  <a href="https://devpost.com/software/myhealthcare" target="_blank" rel="noreferrer noopener" className='orange-body-text'>MyHealthCare</a>
+                </div> 
+              </Carousel.Item>
+        <Carousel.Item>
                 <h1 className='hackathon-title'>fall 2022 hackathon</h1>
 
                   <img
