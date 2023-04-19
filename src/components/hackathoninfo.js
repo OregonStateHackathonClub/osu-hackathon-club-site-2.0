@@ -1,4 +1,5 @@
 import React from 'react';
+import spring2023squarelogo from '../images/spring2023squarelogo.png'
 
 function Info () {
 
