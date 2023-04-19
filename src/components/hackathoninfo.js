@@ -5,6 +5,8 @@ function Info () {
 
     return (
         <>
+        <img src="spring2023squarelogo.png" alt="current Spring 23 Hackathon Flyer" style="width: 100%; height: auto;">
+
             <div className="infobody">
            
                 <h2> schedule </h2>
