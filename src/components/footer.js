@@ -1,8 +1,8 @@
 import React from 'react';
 import EmailIcon from "../images/email_icon.png";
-import InstagramIcon from "../images/instagram_icon.png";
+// import InstagramIcon from "../images/instagram_icon.png";
 import DiscordIcon from "../images/discord_icon.png";
-import SlackIcon from "../images/slack_icon.png";
+// import SlackIcon from "../images/slack_icon.png";
 
 function Footer() {
 
