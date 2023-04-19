@@ -93,7 +93,7 @@ const EventsPage = ( ) => {
               <br/>
               <ShowRegistration/>
               <br/>
-              <img src={beaverhackswinter23} id="circlelogo" alt="beaverhackswinter23"/>
+              <img src={spring2023squarelogo} id="circlelogo" alt="spring2023squarelogo"/>
             </div>
             <Footer/>
         </>
