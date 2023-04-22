@@ -12,11 +12,8 @@ function Info () {
                 <h2> schedule </h2>
                 <br/>                       
                     <p className=''> Opening Ceremony Kick-off / Hackathon starts!:  </p>
-<<<<<<< HEAD
+
                     <p className='orange-body-text'> To be announced</p>
-=======
-                    <p className='orange-body-text'> January 12,2023 5:00 PM PST</p>
->>>>>>> parent of 8738935 (Update hackathoninfo.js)
                     <br/>
                     <p className=''> Hacking ends / Project Submission Deadline: </p>
                     <p className='orange-body-text'> To be announced</p>
