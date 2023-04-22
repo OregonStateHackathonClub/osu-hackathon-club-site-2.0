@@ -25,7 +25,7 @@ function Info () {
                     <p className='orange-body-text'> No project demos this time. </p>
                     <br/>
                     {/* <p className='officer-and-judge-name'> The next hackathon will be from X to X */}
-                    <p className='orange-body-text'>The winners will be announced on X.</p>
+                    <p className='orange-body-text'>The winners will be announced on May 28, 2023.</p>
                     
                 <h2> judges</h2>
                     <br/> 
