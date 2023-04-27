@@ -4,9 +4,9 @@ function CategoriesAndPrizes () {
 
     return ( 
         
-        /*
 
         <> 
+         /*
             <h1>categories</h1>
             <div className="infobody">
                 
