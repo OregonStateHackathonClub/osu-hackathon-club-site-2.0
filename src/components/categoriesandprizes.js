@@ -3,6 +3,8 @@ import React from "react";
 function CategoriesAndPrizes () {
 
     return ( 
+        
+        /*
 
         <> 
             <h1>categories</h1>
@@ -30,41 +32,65 @@ function CategoriesAndPrizes () {
 
                 
             </div>
-
+            */
+        
             <h1>prizes</h1>
             <div className="infobody">
                     <h2>first place - overall</h2>
+        
+                        <p> 
+                        This prize goes to the highest-scoring submission. It is available to all undergraduate 
+                        teams including new student teams. 
+                        </p>
+                        /*
                         <p> 
                         This prize goes to the highest-scoring submission. It is available to all undergraduate 
                         teams including new student teams. Graduate and alumni teams are ineligible for this prize. 
                         If a new student team wins this prize, they are ineligible for the First Place New Student 
                         prize.                    
                         </p>
+                        */
                         <br/> 
 
                     <h2> second place - overall</h2>
+                        <p> 
+                        This prize goes to the second highest-scoring submission. It is available to all undergraduate 
+                        teams including new student teams. 
+                        </p>
+        
+                        /* 
                         <p>
                         This prize goes to the second highest-scoring submission. It is available to all 
                         undergraduate teams including new student teams. Graduate and alumni teams are ineligible
                         for this prize. If a new student team wins this prize, they are ineligible for the First 
                         Place New Student prize.                    
                         </p> 
+                        */
                         <br/> 
 
                     <h2> third place - overall</h2>
+        
                         <p> 
+                        This prize goes to the third highest-scoring submission. It is available to all undergraduate 
+                        teams including new student teams. 
+                        </p>
+        
+                         /*
+                         <p> 
                         This prize goes to the third highest-scoring submission. It is available to all undergraduate
                         teams including new student teams. Graduate and alumni teams are ineligible for this prize. 
                         If a new student team wins this prize, they are ineligible for the First Place New Student 
                         prize.                    
                         </p>
+                        */
                         <br/> 
-                
-                    <h2>new student</h2>
+                    /*
+                        <h2>new student</h2>
                         <p> 
                         This award goes to the highest-scoring new student. Teams that won any of the "Overall" prizes are ineligible for this prize. 
                         </p>
                         <br/>
+                     */
 
             </div>   
 
