@@ -93,7 +93,6 @@ const EventsPage = ( ) => {
               <br/>
               <ShowRegistration/>
               <br/>
-              <img src={spring2023squarelogo} id="circlelogo" alt="spring2023squarelogo"/>
             </div>
             <Footer/>
         </>
