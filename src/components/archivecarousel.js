@@ -5,13 +5,41 @@ import fall2021squarelogo from "../images/fall2021squarelogo.png";
 import summer2021squarelogo from "../images/summer2021squarelogo.png";
 import fall2022posternew from "../images/fall2022posternew.png";
 import beaverhackswinter23 from "../images/beaverhackswinter23.png";
+import spring2023squarelogo from "../images/spring2023squarelogo.png";
 
 function ArchiveCarousel ( ) {
 
     return (
       <div className="infobody">
            <Carousel variant="dark" interval={2000}>
-             <Carousel.Item className='carousel-item'>
+                
+        <Carousel.Item className='carousel-item'>
+                <h1 className='hackathon-title'>spring 2023 hackathon</h1>
+
+                  <img
+                  className="carousel-images"
+                  src={spring2023squarelogo}
+                  alt="spring 2023 hackathon"/>
+
+                <div className='archive-section'>   
+                  <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Data</p>
+                </div>
+
+                <div className='archive-section'> 
+                  <h2 className='carousel-section-header'>winning projects:</h2>
+                  
+                  <h3 className='place-title'>Overall 1st Place</h3>
+                  <a href="https://devpost.com/software/automatically-generate-blog-post-from-youtube-video" target="_blank" rel="noreferrer noopener" className='orange-body-text'>iSpyAI</a>
+
+                  <h3 className='place-title'>Overall 2nd Place</h3>
+                  <a href="https://devpost.com/software/shorts-generator" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Shorts Generator</a>
+
+                  <h3 className='place-title'>Overall 3rd Place</h3>
+                  <a href="https://devpost.com/software/osu-dorm-review-site" target="_blank" rel="noreferrer noopener" className='orange-body-text'>OSU Dorm Review Site </a>
+                </div> 
+              </Carousel.Item>
+
+             <Carousel.Item>
                 <h1 className='hackathon-title'>winter 2023 hackathon</h1>
 
                   <img
@@ -66,8 +94,6 @@ function ArchiveCarousel ( ) {
                   <h3 className='place-title'>New Student</h3>
                   <a href="https://devpost.com/software/to-da-loo" target="_blank" rel="noreferrer noopener" className='orange-body-text'>To Da Loo</a>
                 </div> 
-
-
               </Carousel.Item>
               <Carousel.Item>
                 <h1 className='hackathon-title'>winter 2022 hackathon</h1>
