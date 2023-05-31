@@ -1,7 +1,6 @@
 import React from 'react';
 import NavigationBar from '../components/navbar';
 import logo from '../images/bh-logo-circle.png';
-import spring2023squarelogo from '../images/spring2023squarelogo.png';
 import { useState } from 'react';
 import Info from '../components/hackathoninfo';
 import FAQ from '../components/faq';
