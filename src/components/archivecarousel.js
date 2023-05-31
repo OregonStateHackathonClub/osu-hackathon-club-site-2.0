@@ -22,7 +22,7 @@ function ArchiveCarousel ( ) {
                   alt="spring 2023 hackathon"/>
 
                 <div className='archive-section'>   
-                  <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Data</p>
+                  <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>AI</p>
                 </div>
 
                 <div className='archive-section'> 
