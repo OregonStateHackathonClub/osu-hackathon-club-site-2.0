@@ -21,7 +21,7 @@ function Info () {
                     <p className='orange-body-text'>TBA </p>
                     <br/>
                     {/* <p className='officer-and-judge-name'> The next hackathon will be from X to X */}
-                    <p className='orange-body-text'>TBA</p>
+                    <p className='orange-body-text'></p>
                     
                 <h2> judges</h2>
                     <br/> 
