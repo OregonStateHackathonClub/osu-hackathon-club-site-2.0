@@ -18,7 +18,7 @@ const Officers = () => {
             </Row>
             <Row> 
                 <Col><p className='officer-title'> Hackathon Coordinator: </p></Col>
-                <Col><p className='officer-name'> Alyssa Cabading </p></Col> 
+                <Col><p className='officer-name'> Open position, reach out to oregonstatehackathonclub@gmail.com if interested </p></Col> 
             </Row>  
             <Row> 
                 <Col><p className='officer-title'> Webmaster: </p> </Col>
