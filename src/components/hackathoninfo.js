@@ -12,13 +12,13 @@ function Info () {
                 <h2> schedule </h2>
                 <br/>                       
                     <p className=''> Opening Ceremony Kick-off / Hackathon starts!:  </p>
-                    <p className='orange-body-text'>TBA</p>
+                    <p className='orange-body-text'>October 20, 2023 - 9:00 AM PST </p>
                     <br/>
                     <p className=''> Hacking ends / Project Submission Deadline: </p>
-                    <p className='orange-body-text'>TBA </p>
+                    <p className='orange-body-text'>October 22, 2023 -  9:00 PM PST </p>
                     <br/>
-                    <p className=''> Project Demos / Q&A:</p>
-                    <p className='orange-body-text'>TBA </p>
+                    <p className=''> Winners Announced:</p>
+                    <p className='orange-body-text'>November 5, 2023 at 5:00 PM PST</p>
                     <br/>
                     {/* <p className='officer-and-judge-name'> The next hackathon will be from X to X */}
                     <p className='orange-body-text'></p>
@@ -33,7 +33,7 @@ function Info () {
 
                 <h2> theme </h2>
                     <br/> 
-                    <p className='orange-body-text'>TBA</p> 
+                    <p className='orange-body-text'>Education</p> 
                     
                     {/* <p className='officer-and-judge-name'> TBD </p> */}
 
