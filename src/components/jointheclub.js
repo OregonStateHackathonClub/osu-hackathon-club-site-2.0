@@ -13,8 +13,6 @@ function Join() {
             <h2>step 2:</h2>
                 <p> 
                 Join us on 
-                <button className="joinclubbuttons"><a href="https://osu-hackathon.slack.com/" target="_blank" rel="noreferrer noopener">Slack</a></button>
-                and/or 
                 <button className="joinclubbuttons"><a href="https://discord.gg/FYrjJ7zHGS" target="_blank" rel="noreferrer noopener">Discord</a></button> 
                 </p>
         </div>
