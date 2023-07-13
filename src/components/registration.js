@@ -15,7 +15,7 @@ function Registration() {
                 <h2>find your team: </h2>
 
                 {/* Update Devpost Link Each Hackathon */}
-                <p>Use <button className="joinclubbuttons"><a href="https://beaverhacks-fall-2023.devpost.com/" target="_blank" rel="noreferrer noopener">DevPost</a></button> or <button className="joinclubbuttons"><a href="https://discord.gg/pCesGNGjPc" target="_blank" rel="noreferrer noopener">Discord</a></button> to find teammates.</p>
+                <p>Use <button className="joinclubbuttons"><a href="https://beaverhacks-fall-2023.devpost.com/" target="_blank" rel="noreferrer noopener">DevPost</a></button> or <button className="joinclubbuttons"><a href="https://discord.gg/YCr93jHg7f" target="_blank" rel="noreferrer noopener">Discord</a></button> to find teammates.</p>
             </div>
         </>
     );
