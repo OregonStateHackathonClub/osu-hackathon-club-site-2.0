@@ -37,8 +37,8 @@ const Officers = () => {
                 <Col><p className='officer-name'> Zac Maes </p></Col> 
             </Row>
             <Row> 
-                <Col><p className='officer-title'> Online Liaison: </p></Col>
-                <Col><p className='officer-name'> Open position, reach out to oregonstatehackathonclub@gmail.com if interested</p></Col> 
+                <Col><p className='officer-title'> Social Media Manager: </p></Col>
+                <Col><p className='officer-name'>Brenden Covington</p></Col> 
             </Row> 
             <Row> 
                 <Col><p className='officer-title'> Club Advisor: </p></Col>
