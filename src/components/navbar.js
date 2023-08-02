@@ -16,7 +16,7 @@ function NavigationBar() {
               id="navbarJellyBean"
           />{' '}
         </Navbar.Brand>
-        <Navbar.Brand id='beaverhacks' className="d-none d-sm-block" href="/">beaverhacks</Navbar.Brand>
+        <Navbar.Brand id='beaverhacks' className="d-none d-sm-block" href="/">Hackathon Club At Oregon State</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav"  className="justify-content-end">
           <Nav>
