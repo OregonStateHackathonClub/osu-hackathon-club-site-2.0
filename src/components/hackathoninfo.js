@@ -1,13 +1,16 @@
 import React from 'react';
-import spring2023squarelogo from '../images/spring2023squarelogo.png'
+import beaverhacksfall23 from '../images/beaverhacksfall23.png';
 
 function Info () {
 
     return (
         <>
             <div className="infobody">
-                <h1>To Be Announced</h1>
-                      
+                <h1>Fall 2023 Hackathon</h1>
+                <img
+                    className="carousel-images"
+                    src={beaverhacksfall23}
+                    alt="Fall 2023 hackathon" />      
                 <br/>
                 <h2> schedule </h2>
                 <br/>                       
