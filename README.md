@@ -1,9 +1,9 @@
-# Beaverhacks Website 
+# Oregon State Hackathon Website 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/52d478f8-9eec-4470-90b1-f01516bda74c/deploy-status)](https://app.netlify.com/sites/osu-hackathon-club/deploys)
 
 ## Link
-https://www.beaverhacks.com/
+https://www.oregonstatehackathon.com/
 
 ## Contributors
 * Christina Persaud
@@ -19,7 +19,7 @@ https://www.beaverhacks.com/
 7. Feel free to add your name under Contributers on README.md
 
 ## Install 
-1. Install Node.js.
+1. Install Node.js. (Use Node.js version 16)
 2. Clone this repository:
 ```
 gh repo clone OregonStateHackathonClub/osu-hackathon-club-site-2.0
