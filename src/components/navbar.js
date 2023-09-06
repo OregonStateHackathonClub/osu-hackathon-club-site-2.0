@@ -4,7 +4,7 @@ import RightJellyBean from '../images/RightJellyBean.png';
 
 function NavigationBar() {
     return (
-      <Navbar variant="dark" bg="dark" expand="lg" fixed="top" id="navbar">
+      <Navbar variant="dark" bg="dark" expand="xl" fixed="top" id="navbar">
         <Container> 
         <Navbar.Brand>          
           <img
@@ -16,7 +16,7 @@ function NavigationBar() {
               id="navbarJellyBean"
           />{' '}
         </Navbar.Brand>
-        <Navbar.Brand id='beaverhacks' className="d-none d-sm-block" href="/">Hackathon Club At Oregon State</Navbar.Brand>
+          <Navbar.Brand style={{ fontSize: 25 }} id='beaverhacks' className="d-none d-sm-block h1" href="/">Hackathon Club At Oregon State</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav"  className="justify-content-end">
           <Nav>
