@@ -1,5 +1,5 @@
 import React from 'react';
-import beaverhacksfall23 from '../images/beaverhacksfall23.jpg';
+import beaverhacksfall23 from '../images/beaverhacksfall23.png';
 
 function Info () {
 
