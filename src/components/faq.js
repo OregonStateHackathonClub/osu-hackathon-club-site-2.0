@@ -5,7 +5,7 @@ function Faq() {
     return (
         <>
         <div className="infobody">
-            <h2> what is a hackathon?</h2>
+            <h2> What is a hackathon?</h2>
                 <p> 
                     A hackathon is a competition in which participants build a software and/or hardware project 
                     in a fixed amount of time. Typically participants compete in small teams or individually.
@@ -13,7 +13,7 @@ function Faq() {
         </div>
 
         <div className="infobody">
-            <h2> what is this hackathon all about?</h2>
+            <h2> What is this hackathon all about?</h2>
                 <p> 
                     This hackathon exists to give you and other OSU students & alumni the opportunity 
                     to build a project over a weekend and compete for prizes. It is meant to be low-pressure, 
@@ -25,14 +25,14 @@ function Faq() {
         </div>
 
         <div className="infobody">
-            <h2>how much does it cost? 💸</h2> 
+            <h2>How much does it cost? 💸</h2> 
                 <p> 
                     Totally free! Just your time and energy and creativity!
                 </p>
         </div>
 
         <div className="infobody">
-            <h2>who can participate? 🔭</h2>
+            <h2>Who can participate? 🔭</h2>
                 <p> 
                     Any OSU student or alumni (this includes undergraduate, graduate, post-bacc, on-campus, 
                     ecampus students)
@@ -40,7 +40,7 @@ function Faq() {
         </div>
 
         <div className="infobody">
-            <h2> what can I make? 🤖</h2>
+            <h2> What can I make? 🤖</h2>
                 <p> 
                     Anything you can think of! Web apps, mobile apps, websites, slackbots, APIs, 
                     command-line programs, games, robots, anything!
@@ -58,14 +58,14 @@ function Faq() {
         </div>
                 
         <div className="infobody">
-            <h2> how many people to a team? 👨‍👧‍👧</h2>
+            <h2> How many people to a team? 👨‍👧‍👧</h2>
                 <p> 
                     Teams of up to 4 people!
                 </p>
         </div>
 
         <div className="infobody">
-            <h2>how do we form teams? 🤝</h2>
+            <h2>How do we form teams? 🤝</h2>
                 <p> 
                     You can choose to form your own teams (feel free to post under #teams on Slack/Discord if 
                     you're looking for teammates). 

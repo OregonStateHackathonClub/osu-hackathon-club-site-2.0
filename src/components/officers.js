@@ -6,7 +6,7 @@ const Officers = () => {
     return (
         <div  className="infobody"> 
         <Container>
-            <h2> current officers</h2>
+            <h2> Current Officers</h2>
             {/* Update when officers change */}
             <Row>
                 <Col><p className='officer-title'> President:</p> </Col>

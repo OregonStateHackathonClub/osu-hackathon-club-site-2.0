@@ -19,7 +19,7 @@ const EventsPage = ( ) => {
           <>
           <button
             onClick={toggleDisplay}
-            >upcoming hackathon info</button>
+            >Upcoming Hackathon Info</button>
             {isDisplayed
 	            ? <Info/>
 	            : <></>
@@ -35,7 +35,7 @@ const EventsPage = ( ) => {
           <>
           <button
             onClick={toggleDisplay}
-            >frequently asked questions</button>
+            >Frequently Asked Questions</button>
             {isDisplayed
 	            ? <FAQ/>
 	            : <></>
@@ -52,7 +52,7 @@ const EventsPage = ( ) => {
         <>
         <button
           onClick={toggleDisplay}
-          >team categories and prizes</button>
+          >Team Categories and Prizes</button>
           {isDisplayed
             ? <CategoriesAndPrizes/>
             : <></>
@@ -69,7 +69,7 @@ const EventsPage = ( ) => {
           <>
           <button
             onClick={toggleDisplay}
-            >registration</button>
+            >Registration</button>
             {isDisplayed
 	            ? <Registration/>
 	            : <></>
@@ -82,7 +82,7 @@ const EventsPage = ( ) => {
     return (
         <>
             <NavigationBar/>
-            <h1 className="pagetitle">hackathon info</h1>
+            <h1 className="pagetitle">Hackathon Info</h1>
             <div className="pagebody"> 
               <ShowInfo/>
               <br/>

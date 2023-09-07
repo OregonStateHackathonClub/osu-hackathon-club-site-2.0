@@ -12,7 +12,7 @@ function Info () {
                     src={beaverhacksfall23}
                     alt="Fall 2023 hackathon" />      
                 <br/>
-                <h2> schedule </h2>
+                <h2> Schedule </h2>
                 <br/>                       
                     <p className=''> Opening Ceremony Kick-off / Hackathon starts!:  </p>
                     <p className='orange-body-text'>October 20, 2023 - 9:00 AM PST </p>
@@ -26,7 +26,7 @@ function Info () {
                     {/* <p className='officer-and-judge-name'> The next hackathon will be from X to X */}
                     <p className='orange-body-text'></p>
                     
-                <h2> judges</h2>
+                <h2> Judges</h2>
                     <br/> 
                     <p className='orange-body-text'>TBA </p> 
                     <br/> 
@@ -34,7 +34,7 @@ function Info () {
                     
                     {/* <p className='officer-and-judge-name'> name, occupation </p> */}
 
-                <h2> theme </h2>
+                <h2> Theme </h2>
                     <br/> 
                     <p className='orange-body-text'>Education</p> 
                     

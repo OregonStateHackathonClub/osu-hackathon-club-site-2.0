@@ -9,7 +9,7 @@ const ArchivePage = ( {pastHackathons} ) => {
     return (
         <>
             <NavigationBar/>
-            <h1 className="pagetitle">archive</h1>
+            <h1 className="pagetitle">Archive</h1>
             <div className="pagebody">
                 <ArchiveCarousel pastHackathons={pastHackathons}/>
             </div>
