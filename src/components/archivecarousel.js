@@ -14,7 +14,7 @@ function ArchiveCarousel ( ) {
            <Carousel variant="dark" interval={2000}>
                 
         <Carousel.Item className='carousel-item'>
-                <h1 className='hackathon-title'>spring 2023 hackathon</h1>
+                <h1 className='hackathon-title'>Spring 2023 Hackathon</h1>
 
                   <img
                   className="carousel-images"
@@ -22,11 +22,11 @@ function ArchiveCarousel ( ) {
                   alt="spring 2023 hackathon"/>
 
                 <div className='archive-section'>   
-                  <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>AI</p>
+                  <h2 className='carousel-section-header'>Theme:</h2><p className='past_themes'>AI</p>
                 </div>
 
                 <div className='archive-section'> 
-                  <h2 className='carousel-section-header'>winning projects:</h2>
+                  <h2 className='carousel-section-header'>Winning Projects:</h2>
                   
                   <h3 className='place-title'>Overall 1st Place</h3>
                   <a href="https://devpost.com/software/automatically-generate-blog-post-from-youtube-video" target="_blank" rel="noreferrer noopener" className='orange-body-text'>iSpyAI</a>
@@ -40,7 +40,7 @@ function ArchiveCarousel ( ) {
               </Carousel.Item>
 
              <Carousel.Item>
-                <h1 className='hackathon-title'>winter 2023 hackathon</h1>
+                <h1 className='hackathon-title'>Winter 2023 Hackathon</h1>
 
                   <img
                   className="carousel-images"
@@ -48,11 +48,11 @@ function ArchiveCarousel ( ) {
                   alt="winter 2023 hackathon"/>
 
                 <div className='archive-section'>   
-                  <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Data</p>
+                  <h2 className='carousel-section-header'>Theme:</h2><p className='past_themes'>Data</p>
                 </div>
 
                 <div className='archive-section'> 
-                  <h2 className='carousel-section-header'>winning projects:</h2>
+                  <h2 className='carousel-section-header'>Winning Projects:</h2>
                   
                   <h3 className='place-title'>Overall 1st Place</h3>
                   <a href="https://devpost.com/software/affective" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Affective</a>
@@ -68,7 +68,7 @@ function ArchiveCarousel ( ) {
                 </div> 
               </Carousel.Item>
         <Carousel.Item>
-                <h1 className='hackathon-title'>fall 2022 hackathon</h1>
+                <h1 className='hackathon-title'>Fall 2022 Hackathon</h1>
 
                   <img
                   className="carousel-images"
@@ -76,11 +76,11 @@ function ArchiveCarousel ( ) {
                   alt="fall 2022 hackathon"/>
 
                 <div className='archive-section'>   
-                  <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Life Hackathon</p>
+                  <h2 className='carousel-section-header'>Theme:</h2><p className='past_themes'>Life Hackathon</p>
                 </div>
 
                 <div className='archive-section'> 
-                  <h2 className='carousel-section-header'>winning projects:</h2>
+                  <h2 className='carousel-section-header'>Winning Projects:</h2>
                   
                   <h3 className='place-title'>Overall 1st Place</h3>
                   <a href="https://devpost.com/software/gobeavs" target="_blank" rel="noreferrer noopener" className='orange-body-text'>goBeavs</a>
@@ -96,7 +96,7 @@ function ArchiveCarousel ( ) {
                 </div> 
               </Carousel.Item>
               <Carousel.Item>
-                <h1 className='hackathon-title'>winter 2022 hackathon</h1>
+                <h1 className='hackathon-title'>Winter 2022 Hackathon</h1>
 
                   <img
                   className="carousel-images"
@@ -104,11 +104,11 @@ function ArchiveCarousel ( ) {
                   alt="winter 2022 hackathon"/>
 
                 <div className='archive-section'>   
-                  <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Data</p>
+                  <h2 className='carousel-section-header'>Theme:</h2><p className='past_themes'>Data</p>
                 </div>
 
                 <div className='archive-section'> 
-                  <h2 className='carousel-section-header'>winning projects:</h2>
+                  <h2 className='carousel-section-header'>Winning Projects:</h2>
                   
                   <h3 className='place-title'>Overall 1st Place</h3>
                   <a href="https://devpost.com/software/spotify-cartography" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Spotify Cartography</a>
@@ -126,7 +126,7 @@ function ArchiveCarousel ( ) {
 
               </Carousel.Item>
               <Carousel.Item>
-                <h1 className='hackathon-title'>fall 2021 hackathon</h1>
+                <h1 className='hackathon-title'>Fall 2021 Hackathon</h1>
                   <img
                   className="carousel-images"
                   src={fall2021squarelogo}
@@ -134,12 +134,12 @@ function ArchiveCarousel ( ) {
                 />
 
                 <div className='archive-section'>   
-                  <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Energy/Climate</p>
+                  <h2 className='carousel-section-header'>Theme:</h2><p className='past_themes'>Energy/Climate</p>
                 </div>  
 
 
                 <div className="archive-section"> 
-                  <h2 className='carousel-section-header'>winning projects:</h2>
+                  <h2 className='carousel-section-header'>Winning Projects:</h2>
 
                   <h3 className='place-title'>Overall 1st Place (Tie)</h3>
                   <a href="https://devpost.com/software/green-alerts" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Green Alerts</a>
@@ -159,7 +159,7 @@ function ArchiveCarousel ( ) {
 
               </Carousel.Item>
               <Carousel.Item>
-                <h1 className='hackathon-title'>summer 2021 hackathon</h1>
+                <h1 className='hackathon-title'>Summer 2021 Hackathon</h1>
                   <img
                     className="carousel-images"
                     src={summer2021squarelogo}
@@ -167,13 +167,13 @@ function ArchiveCarousel ( ) {
                   />
 
                 <div className='archive-section'> 
-                  <h2 className='carousel-section-header'>theme:</h2><p className='past_themes'>Gaming</p>
+                  <h2 className='carousel-section-header'>Theme:</h2><p className='past_themes'>Gaming</p>
                 </div>
 
 
                 <div className='archive-section'>   
 
-                  <h2 className='carousel-section-header'>winning projects:</h2>
+                  <h2 className='carousel-section-header'>Winning Projects:</h2>
                   <h3 className='place-title'>Overall 1st Place (Tie)</h3>
                   <a href="https://devpost.com/software/frodo-s-nine-lives" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Frodo's Nine Lives</a>
 

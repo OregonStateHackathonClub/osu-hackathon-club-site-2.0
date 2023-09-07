@@ -15,7 +15,7 @@ const AboutPage = () => {
           <>
           <button
             onClick={toggleDisplay}
-            >mission & history</button>
+            >Mission & History</button>
             {isDisplayed
 	            ? <AboutTheClub/>
 	            : <></>
@@ -31,7 +31,7 @@ const AboutPage = () => {
           <>
           <button
             onClick={toggleDisplay}
-            >join the club</button>
+            >Join the Club</button>
             {isDisplayed
 	            ? <Join/>
 	            : <></>
@@ -48,7 +48,7 @@ const AboutPage = () => {
           <>
           <button
             onClick={toggleDisplay}
-            >current officers</button>
+            >Current Officers</button>
             {isDisplayed
 	            ? <Officers/>
 	            : <></>
@@ -61,7 +61,7 @@ const AboutPage = () => {
     return (
         <>
             <NavigationBar/>
-            <h1 className="pagetitle"> about the club </h1>
+            <h1 className="pagetitle"> About the Club </h1>
             <div className="pagebody">
               <ShowAboutClub/>
               <br/>
