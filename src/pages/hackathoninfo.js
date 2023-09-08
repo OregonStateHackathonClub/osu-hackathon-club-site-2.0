@@ -13,18 +13,9 @@ import Footer from '../components/footer';
 const EventsPage = ( ) => {
 
     function ShowInfo() {
-        const [isDisplayed, setDisplayed] = useState(false);
-        const toggleDisplay = () => setDisplayed(!isDisplayed);
+        
         return (
-          <>
-          <button
-            onClick={toggleDisplay}
-            >Upcoming Hackathon Info</button>
-            {isDisplayed
-	            ? <Info/>
-	            : <></>
-            }
-          </>
+          <Info />
         );
     }
 
