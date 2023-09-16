@@ -8,12 +8,14 @@ import ArchiveCarousel from "../components/archivecarousel";
 const ArchivePage = ( {pastHackathons} ) => {
     return (
         <>
-            <NavigationBar/>
-            <h1 className="pagetitle">Archive</h1>
+            <NavigationBar />
+            <br />
+            <h1 className="smallText">Archive</h1>
             <div className="pagebody">
-                <ArchiveCarousel pastHackathons={pastHackathons}/>
+                <ArchiveCarousel pastHackathons={pastHackathons} />
+                <Footer />
             </div>
-            <Footer/>
+           
         </>
     );
 }

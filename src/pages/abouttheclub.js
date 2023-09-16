@@ -9,67 +9,37 @@ import Footer from '../components/footer';
 const AboutPage = () => {
 
             function ShowAboutClub() {
-        const [isDisplayed, setDisplayed] = useState(false);
-        const toggleDisplay = () => setDisplayed(!isDisplayed);
-        return (
-          <>
-          <button
-            onClick={toggleDisplay}
-            >Mission & History</button>
-            {isDisplayed
-	            ? <AboutTheClub/>
-	            : <></>
-            }
-          </>
-        );
+              return (
+                <AboutTheClub />
+              );
     }
 
     function ShowJoinClub () {
-        const [isDisplayed, setDisplayed] = useState(false);
-        const toggleDisplay = () => setDisplayed(!isDisplayed);
         return (
-          <>
-          <button
-            onClick={toggleDisplay}
-            >Join the Club</button>
-            {isDisplayed
-	            ? <Join/>
-	            : <></>
-            }
-          </>
+          < Join />
         );
-
     }
-
-    function ShowOfficers () {
-        const [isDisplayed, setDisplayed] = useState(false);
-        const toggleDisplay = () => setDisplayed(!isDisplayed);
-        return (
-          <>
-          <button
-            onClick={toggleDisplay}
-            >Current Officers</button>
-            {isDisplayed
-	            ? <Officers/>
-	            : <></>
-            }
-          </>
-        );
-
-    }
+  
+  function ShowOfficers() {
+    return (
+      <Officers />
+    );
+  }
 
     return (
         <>
-            <NavigationBar/>
-            <h1 className="pagetitle"> About the Club </h1>
+        <NavigationBar />
+        <br />
+          <h1 className="smallText"> About the Club </h1>
             <div className="pagebody">
               <ShowAboutClub/>
-              <br/>
+              <br />
               <ShowJoinClub/>
               <br/>
-              <ShowOfficers/>
+          <ShowOfficers />
+          <Footer />
             </div>
-            <Footer/>
+            
         </>
     );
 }

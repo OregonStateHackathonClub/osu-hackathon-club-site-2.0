@@ -4,7 +4,8 @@ function Join() {
 
     return (
         <div className="infobody">
-        <p>           
+            <h1>Join the club:</h1>
+            <p>           
             Are you a current Oregon State University undergraduate or graduate student (on-campus or ecampus)? Complete the steps below to become an official member of the Hackathon Club!
         </p>
            <h2>Step 1:</h2> 

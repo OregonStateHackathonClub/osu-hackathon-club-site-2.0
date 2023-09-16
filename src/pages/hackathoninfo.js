@@ -1,101 +1,55 @@
 import React from 'react';
 import NavigationBar from '../components/navbar';
 import logo from '../images/bh-logo-circle.png';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Info from '../components/hackathoninfo';
 import FAQ from '../components/faq';
 import Registration from '../components/registration';
 import CategoriesAndPrizes from '../components/categoriesandprizes';
 import Footer from '../components/footer';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
+const EventsPage = () => {
 
-
-const EventsPage = ( ) => {
-
-    function ShowInfo() {
-        const [isDisplayed, setDisplayed] = useState(false);
-        const toggleDisplay = () => setDisplayed(!isDisplayed);
-        return (
-          <>
-          <button
-            onClick={toggleDisplay}
-            >Upcoming Hackathon Info</button>
-            {isDisplayed
-	            ? <Info/>
-	            : <></>
-            }
-          </>
-        );
-    }
-
-    function ShowFAQ () {
-        const [isDisplayed, setDisplayed] = useState(false);
-        const toggleDisplay = () => setDisplayed(!isDisplayed);
-        return (
-          <>
-          <button
-            onClick={toggleDisplay}
-            >Frequently Asked Questions</button>
-            {isDisplayed
-	            ? <FAQ/>
-	            : <></>
-            }
-          </>
-        );
-
-    }
-
-    function ShowCategoriesAndPrizes () {
-      const [isDisplayed, setDisplayed] = useState(false);
-      const toggleDisplay = () => setDisplayed(!isDisplayed);
-      return (
-        <>
-        <button
-          onClick={toggleDisplay}
-          >Team Categories and Prizes</button>
-          {isDisplayed
-            ? <CategoriesAndPrizes/>
-            : <></>
-          }
-        </>
-      );
-
+  function LandingPage() {
+    return (
+      <div className='background-gradient'>
+          <h1 className='bigText'>Oregon State Hackathon</h1>
+          <h1 className='smallText'>Where beavers code.</h1>
+        </div>
+    );
   }
-
-    function ShowRegistration () {
-        const [isDisplayed, setDisplayed] = useState(false);
-        const toggleDisplay = () => setDisplayed(!isDisplayed);
-        return (
-          <>
-          <button
-            onClick={toggleDisplay}
-            >Registration</button>
-            {isDisplayed
-	            ? <Registration/>
-	            : <></>
-            }
-          </>
-        );
-
-    }
+  function ShowFAQ() {
 
     return (
-        <>
-            <NavigationBar/>
-            <h1 className="pagetitle">Hackathon Info</h1>
-            <div className="pagebody"> 
-              <ShowInfo/>
-              <br/>
-              <ShowCategoriesAndPrizes/>
-              <br/>
-              <ShowFAQ/>
-              <br/>
-              <ShowRegistration/>
-              <br/>
-            </div>
-            <Footer/>
-        </>
+      <Container>
+        <Row>
+          <Col md><FAQ /></Col>
+          <Col md><Registration /></Col>
+        </Row>
+      </Container>
+
     );
+  }
+
+  return (
+    <>
+      <NavigationBar />
+      <LandingPage />
+      <div className="pagebody">
+        <Info />
+        <br />
+        <CategoriesAndPrizes />
+        <br />
+        <ShowFAQ />
+        <br />
+        <Footer />
+      </div>
+
+    </>
+  );
 }
 
 
