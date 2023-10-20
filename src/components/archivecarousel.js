@@ -48,7 +48,7 @@ function ArchiveCarousel ( ) {
                   alt="winter 2023 hackathon"/>
 
                 <div className='archive-section'>   
-                  <h2 className='carousel-section-header'>Theme:</h2><p className='past_themes'>Data</p>
+                  <h2 className='carousel-section-header'>Theme:</h2><p className='past_themes'>Health</p>
                 </div>
 
                 <div className='archive-section'> 
