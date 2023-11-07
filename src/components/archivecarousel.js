@@ -6,13 +6,39 @@ import summer2021squarelogo from "../images/summer2021squarelogo.png";
 import fall2022posternew from "../images/fall2022posternew.png";
 import beaverhackswinter23 from "../images/beaverhackswinter23.png";
 import spring2023squarelogo from "../images/spring2023squarelogo.png";
+import beaverhacksfall23 from '../images/beaverhacksfall23.png';
 
 function ArchiveCarousel ( ) {
 
     return (
       <div className="infobody">
            <Carousel variant="dark" interval={2000}>
-                
+        
+          <Carousel.Item className='carousel-item'>
+            <h1 className='hackathon-title'>Fall 2023 Hackathon</h1>
+
+            <img
+              className="carousel-images"
+              src={beaverhacksfall23}
+              alt="fall 2023 hackathon" />
+
+            <div className='archive-section'>
+              <h2 className='carousel-section-header'>Theme:</h2><p className='past_themes'>Education</p>
+            </div>
+
+            <div className='archive-section'>
+              <h2 className='carousel-section-header'>Winning Projects:</h2>
+
+              <h3 className='place-title'>Overall 1st Place</h3>
+              <a href="https://devpost.com/software/syllabot-1dxsil" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Syllabot</a>
+
+              <h3 className='place-title'>Overall 2nd Place</h3>
+              <a href="https://devpost.com/software/group-38" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Teacher's pet</a>
+
+              <h3 className='place-title'>Overall 3rd Place</h3>
+              <a href="https://devpost.com/software/focii" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Focii</a>
+            </div>
+          </Carousel.Item>
         <Carousel.Item className='carousel-item'>
                 <h1 className='hackathon-title'>Spring 2023 Hackathon</h1>
 

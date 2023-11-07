@@ -32,9 +32,14 @@ cd osu-hackathon-club-site-2.0
 ```
 npm install
 ```
-5. Create build for changes made:
+5. Run local development server:
+```
+npm start
+```
+
+7. Create build for changes made:
 ```
 npm run build
 ```
-6. Commit changes and push to Github
+8. Commit changes and push to Github
 

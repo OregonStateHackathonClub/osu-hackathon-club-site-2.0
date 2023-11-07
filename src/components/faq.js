@@ -64,6 +64,12 @@ function Faq() {
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="8">
+                        <Accordion.Header>When are these hackathons? 📅</Accordion.Header>
+                        <Accordion.Body>
+                            <p>We usually have one hackathon every academic term at OSU. (Fall, Winter, and Spring terms). But we occassionally have special hackathon events!</p>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="9">
                         <Accordion.Header>
                             Can I help judge or sponsor this hackathon? 💼
                         </Accordion.Header>
