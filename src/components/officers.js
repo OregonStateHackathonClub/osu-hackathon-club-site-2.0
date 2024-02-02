@@ -14,7 +14,7 @@ const Officers = () => {
             </Row> 
             <Row> 
                 <Col><p className='officer-title'> Vice President: </p> </Col>
-                <Col><p className='officer-name'> Christina Persaud </p></Col> 
+                <Col><p className='officer-name'> Chris Ho </p></Col> 
             </Row>
             <Row> 
                 <Col><p className='officer-title'> Hackathon Coordinator: </p></Col>
