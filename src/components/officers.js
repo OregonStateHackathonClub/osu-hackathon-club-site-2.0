@@ -10,7 +10,7 @@ const Officers = () => {
             {/* Update when officers change */}
             <Row>
                 <Col><p className='officer-title'> President:</p> </Col>
-                <Col> <p className='officer-name'> Scott Lindsay </p></Col>
+                <Col> <p className='officer-name'> Havel Konda </p></Col>
             </Row> 
             <Row> 
                 <Col><p className='officer-title'> Vice President: </p> </Col>
@@ -22,11 +22,11 @@ const Officers = () => {
             </Row>  
             <Row> 
                 <Col><p className='officer-title'> Webmaster: </p> </Col>
-                <Col><p className='officer-name'> Chris Ho </p></Col> 
+                <Col><p className='officer-name'> Cameron Canfield </p></Col> 
             </Row> 
             <Row> 
                 <Col><p className='officer-title'> Secretary: </p> </Col>
-                <Col><p className='officer-name'> Rich Quach</p> </Col> 
+                <Col><p className='officer-name'> Edward Swanson</p> </Col> 
             </Row>
             <Row> 
                 <Col><p className='officer-title'> Treasurer: </p> </Col>
@@ -34,7 +34,7 @@ const Officers = () => {
             </Row>         
             <Row> 
                 <Col><p className='officer-title'> Event Coordinator: </p></Col>
-                <Col><p className='officer-name'> Zac Maes </p></Col> 
+                <Col><p className='officer-name'> Keona Abad </p></Col> 
             </Row>
             <Row> 
                 <Col><p className='officer-title'> Social Media Manager: </p></Col>
@@ -44,7 +44,18 @@ const Officers = () => {
                 <Col><p className='officer-title'> Club Advisor: </p></Col>
                 <Col><p className='officer-name'> Hannah Scott </p></Col> 
             </Row>
-
+            <Row> 
+                <Col><p className='officer-title'> Professional Outreach: </p></Col>
+                <Col><p className='officer-name'> Abhishek Enaguthi </p></Col> 
+            </Row>
+            <Row> 
+                <Col><p className='officer-title'> Sponsorship Coordinator: </p></Col>
+                <Col><p className='officer-name'> Guy Cohen </p></Col> 
+            </Row>
+            <Row> 
+                <Col><p className='officer-title'> Recruitment: </p></Col>
+                <Col><p className='officer-name'> Owen Krause </p></Col> 
+            </Row>
         </Container>
         </div>
     );

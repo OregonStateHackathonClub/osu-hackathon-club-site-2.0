@@ -5,8 +5,7 @@ function Info () {
     return (
         <>
             <div className="infobody">
-                <h1>Google Hacks</h1>
-                <p>Hosted with <a href="https://gdsc.community.dev/oregon-state-university/">Google Developer Student Club at OSU!</a></p>
+                <h1>Winter 2024 Hobbies</h1>
                 
                 {/* <img
                     className="carousel-images"
@@ -15,11 +14,11 @@ function Info () {
                 <br/>
                 <h2> Schedule </h2>
                 <br/>                       
-                    <p className=''> Opening Ceremony Kick-off / Hackathon starts!:  </p>
-                    <p className='orange-body-text'>November 17th, 2023</p>
+                    <p className=''> Hackathon starts!:  </p>
+                    <p className='orange-body-text'>March 1st, 2024</p>
                     <br/>
-                    <p className=''> Hacking ends / Project Submission Deadline: </p>
-                    <p className='orange-body-text'>TBA</p>
+                    <p className=''> Project Submission Deadline: </p>
+                    <p className='orange-body-text'>March 3rd, 2024</p>
                     <br/>
                     <p className=''> Winners Announced:</p>
                 <p className='orange-body-text'>TBA</p>
@@ -37,7 +36,7 @@ function Info () {
 
                 <h2> Theme </h2>
                     <br/> 
-                    <p className='orange-body-text'>Google Technologies</p> 
+                    <p className='orange-body-text'>Hobbies</p> 
                     
                     {/* <p className='officer-and-judge-name'> TBD </p> */}
 

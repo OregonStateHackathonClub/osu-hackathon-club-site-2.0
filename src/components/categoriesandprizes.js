@@ -38,6 +38,12 @@ function CategoriesAndPrizes () {
                         </p>
                         <br/> 
 
+                    <h2> Beginner Prize</h2>
+
+                        <p>
+                        This prize goes to the highest-scoring beginners team. It is available to <u>beginner</u> teams.
+                        </p>
+
             </div>   
 
         </>
