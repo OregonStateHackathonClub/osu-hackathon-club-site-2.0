@@ -8,7 +8,7 @@ function CategoriesAndPrizes () {
         <>
             <h1>Categories</h1>
             <div className="infobody">
-                    <h2>No categories for this hackathon</h2>
+                    <h2>Technical Difficulty, User Experience, Creativity, and Adherence to Theme</h2>
                     <br/> 
             </div>   
         
