@@ -14,6 +14,37 @@ function ArchiveCarousel ( ) {
       <div className="infobody">
            <Carousel variant="dark" interval={2000}>
         
+           <Carousel.Item className='carousel-item'>
+            <h1 className='hackathon-title'>Winter 2024 Hackathon</h1>
+
+
+             {/* We didn't make a flyer for the Winter 2024 hackathon i don't believe - Cam */}
+            {/* <img
+              className="carousel-images"
+              src={beaverhacksfall23}
+              alt="fall 2023 hackathon" /> */}
+
+            <div className='archive-section'>
+              <h2 className='carousel-section-header'>Theme:</h2><p className='past_themes'>Hobbies</p>
+            </div>
+
+            <div className='archive-section'>
+              <h2 className='carousel-section-header'>Winning Projects:</h2>
+
+              <h3 className='place-title'>Overall 1st Place</h3>
+              <a href="https://devpost.com/software/beatbytes" target="_blank" rel="noreferrer noopener" className='orange-body-text'>BeatBytes</a>
+
+              <h3 className='place-title'>Overall 2nd Place</h3>
+              <a href="https://devpost.com/software/box-office-battles" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Box Office Battles</a>
+
+              <h3 className='place-title'>Overall 3rd Place</h3>
+              <a href="https://devpost.com/software/guitar-hub" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Guitar Hub</a>
+
+              <h3 className='place-title'>Best Beginner Team</h3>
+              <a href="https://devpost.com/software/ai-arena-b84kx3" target="_blank" rel="noreferrer noopener" className='orange-body-text'>Ai Arena</a>
+            </div>
+          </Carousel.Item>
+
           <Carousel.Item className='carousel-item'>
             <h1 className='hackathon-title'>Fall 2023 Hackathon</h1>
 
