@@ -16,7 +16,7 @@ const EventsPage = () => {
   function LandingPage() {
     return (
       <div className='background-gradient'>
-          <h1 className='bigText'>Oregon State Hackathon</h1>
+          <h1 className='bigText'>Hackathon Club at Oregon State</h1>
           <h1 className='smallText'>Where beavers code.</h1>
         </div>
     );
