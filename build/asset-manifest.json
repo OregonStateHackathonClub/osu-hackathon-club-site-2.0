@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14a2a66d.chunk.css",
+    "main.js": "/static/js/main.86e634c3.chunk.js",
+    "main.js.map": "/static/js/main.86e634c3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.732b2425.js",
+    "runtime-main.js.map": "/static/js/runtime-main.732b2425.js.map",
+    "static/css/2.9ec07ce6.chunk.css": "/static/css/2.9ec07ce6.chunk.css",
+    "static/js/2.78000a8e.chunk.js": "/static/js/2.78000a8e.chunk.js",
+    "static/js/2.78000a8e.chunk.js.map": "/static/js/2.78000a8e.chunk.js.map",
+    "static/js/3.74beffa0.chunk.js": "/static/js/3.74beffa0.chunk.js",
+    "static/js/3.74beffa0.chunk.js.map": "/static/js/3.74beffa0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.9ec07ce6.chunk.css.map": "/static/css/2.9ec07ce6.chunk.css.map",
+    "static/css/main.14a2a66d.chunk.css.map": "/static/css/main.14a2a66d.chunk.css.map",
+    "static/js/2.78000a8e.chunk.js.LICENSE.txt": "/static/js/2.78000a8e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/JetBrainsMonoNL-Thin.e1e78eb6.svg",
+    "static/media/RightJellyBean.7580930f.png": "/static/media/RightJellyBean.7580930f.png",
+    "static/media/beaverhacksfall23.9cc0aa13.png": "/static/media/beaverhacksfall23.9cc0aa13.png",
+    "static/media/beaverhackswinter23.a6981be0.png": "/static/media/beaverhackswinter23.a6981be0.png",
+    "static/media/bh-logo-circle.8ac23bcc.png": "/static/media/bh-logo-circle.8ac23bcc.png",
+    "static/media/fall2021squarelogo.1f3057fd.png": "/static/media/fall2021squarelogo.1f3057fd.png",
+    "static/media/fall2022posternew.e74576a9.png": "/static/media/fall2022posternew.e74576a9.png",
+    "static/media/linkedin_icon.6d58dbe8.png": "/static/media/linkedin_icon.6d58dbe8.png",
+    "static/media/spring2023squarelogo.0444cbeb.png": "/static/media/spring2023squarelogo.0444cbeb.png",
+    "static/media/summer2021squarelogo.c0035f6a.png": "/static/media/summer2021squarelogo.c0035f6a.png",
+    "static/media/winter2022squarelogo.b6f0cf33.png": "/static/media/winter2022squarelogo.b6f0cf33.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.732b2425.js",
+    "static/css/2.9ec07ce6.chunk.css",
+    "static/js/2.78000a8e.chunk.js",
+    "static/css/main.14a2a66d.chunk.css",
+    "static/js/main.86e634c3.chunk.js"
+  ]
+}

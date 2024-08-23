@@ -17,17 +17,13 @@ const Officers = () => {
                 <Col><p className='officer-name'> Chris Ho </p></Col> 
             </Row>
             <Row> 
-                <Col><p className='officer-title'> Hackathon Coordinator: </p></Col>
-                    <Col><p className='officer-name'> Oluwatomi Hassan </p></Col> 
-            </Row>  
-            <Row> 
                 <Col><p className='officer-title'> Webmaster: </p> </Col>
                 <Col><p className='officer-name'> Cameron Canfield </p></Col> 
             </Row> 
-            <Row> 
-                <Col><p className='officer-title'> Secretary: </p> </Col>
-                <Col><p className='officer-name'> Edward Swanson</p> </Col> 
-            </Row>
+            {/* <Row>  */}
+                {/* <Col><p className='officer-title'> Secretary: </p> </Col> */}
+                {/* <Col><p className='officer-name'> Edward Swanson</p> </Col>  */}
+            {/* </Row> */}
             <Row> 
                 <Col><p className='officer-title'> Treasurer: </p> </Col>
                 <Col><p className='officer-name'> Rahul Kannan</p> </Col> 
@@ -37,16 +33,20 @@ const Officers = () => {
                 <Col><p className='officer-name'> Keona Abad </p></Col> 
             </Row>
             <Row> 
-                <Col><p className='officer-title'> Social Media Manager: </p></Col>
-                <Col><p className='officer-name'>Brenden Covington</p></Col> 
+                <Col><p className='officer-title'> Event Coordinator: </p></Col>
+                    <Col><p className='officer-name'> Eliane Wang </p></Col> 
+            </Row>  
+            <Row> 
+                <Col><p className='officer-title'> Event Coordinator: </p></Col>
+                <Col><p className='officer-name'>	Caleb Chia</p></Col> 
             </Row> 
             <Row> 
                 <Col><p className='officer-title'> Club Advisor: </p></Col>
                 <Col><p className='officer-name'> Hannah Scott </p></Col> 
             </Row>
             <Row> 
-                <Col><p className='officer-title'> Professional Outreach: </p></Col>
-                <Col><p className='officer-name'> Abhishek Enaguthi </p></Col> 
+                <Col><p className='officer-title'> Public Relations: </p></Col>
+                <Col><p className='officer-name'> Mack Lieu </p></Col> 
             </Row>
             <Row> 
                 <Col><p className='officer-title'> Sponsorship Coordinator: </p></Col>
