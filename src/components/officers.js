@@ -29,7 +29,7 @@ const Officers = () => {
                 <Col><p className='officer-name'> Rahul Kannan</p> </Col> 
             </Row>         
             <Row> 
-                <Col><p className='officer-title'> Event Coordinator: </p></Col>
+                <Col><p className='officer-title'> Sponsorship Coordinator: </p></Col>
                 <Col><p className='officer-name'> Keona Abad </p></Col> 
             </Row>
             <Row> 
@@ -37,7 +37,7 @@ const Officers = () => {
                     <Col><p className='officer-name'> Eliane Wang </p></Col> 
             </Row>  
             <Row> 
-                <Col><p className='officer-title'> Event Coordinator: </p></Col>
+                <Col><p className='officer-title'> Online Coordinator: </p></Col>
                 <Col><p className='officer-name'>	Caleb Chia</p></Col> 
             </Row> 
             <Row> 
@@ -49,11 +49,11 @@ const Officers = () => {
                 <Col><p className='officer-name'> Mack Lieu </p></Col> 
             </Row>
             <Row> 
-                <Col><p className='officer-title'> Sponsorship Coordinator: </p></Col>
-                <Col><p className='officer-name'> Guy Cohen </p></Col> 
+                <Col><p className='officer-title'> Public Relations: </p></Col>
+                <Col><p className='officer-name'> Danielle Chang </p></Col> 
             </Row>
             <Row> 
-                <Col><p className='officer-title'> Recruitment: </p></Col>
+                <Col><p className='officer-title'> Director of Outreach: </p></Col>
                 <Col><p className='officer-name'> Owen Krause </p></Col> 
             </Row>
         </Container>
