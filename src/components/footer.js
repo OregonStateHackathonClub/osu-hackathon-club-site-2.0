@@ -17,7 +17,7 @@ function Footer() {
             <a href="https://www.reddit.com/user/OSUHackathonClub/" target="_blank" rel="noreferrer noopener"><img src={RedditIcon} alt="Reddit Icon" className="footer_icons"></img></a>
             <a href="https://www.linkedin.com/company/oregon-state-hackathon-club/" target="_blank" rel="noreferrer noopener"><img src={LinkedInIcon} alt="LinkedIn Icon" className="footer_icons"></img></a>
 
-            <p id="footer_text_club">Oregon State University Hackathon Club</p>
+            <p id="footer_text_club">Hackathon Club at Oregon State University</p>
         </footer>
     );
 
