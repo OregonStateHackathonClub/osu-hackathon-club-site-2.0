@@ -1,16 +1,16 @@
 "use client"
 
 import { useRef } from "react";
-import { GridAnimation } from "@/components/animation"
-import { ApplyButton } from "@/components/apply";
+import { GridAnimation } from "@/components/animation";
 import { ChevronButton } from "@/components/chevron";
+import { Navbar } from "@/components/navbar";
 
 export default function Home() {
 
   const next = useRef(null)
   return (
     <>
-      <ApplyButton />
+      <Navbar />
       <div className="w-screen h-screen flex items-center justify-center">
         <GridAnimation />
         <ChevronButton targetRef={next}/>
