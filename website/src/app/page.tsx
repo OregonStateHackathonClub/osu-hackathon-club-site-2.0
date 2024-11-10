@@ -5,7 +5,7 @@ import { GridAnimation } from "@/components/animation";
 import { ChevronButton } from "@/components/chevron";
 import { Navbar } from "@/components/navbar";
 
-export default function Home() {
+const Home = () => {
 
   const next = useRef(null)
   return (
@@ -21,3 +21,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home;
