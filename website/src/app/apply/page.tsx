@@ -1,8 +1,9 @@
 import { redirect } from "next/navigation"
+
+import { prisma } from "@/lib/prisma"
 import { getCurrentSession } from "@/lib/auth/session"
 import { ApplicationForm } from "@/components/form"
 import { AuthPage } from "@/components/auth"
-import { prisma } from "@/lib/prisma"
 
 const Apply = async() => {
   const { user } = await getCurrentSession()
@@ -14,10 +15,7 @@ const Apply = async() => {
     where: { userId: user.id }
   })
 
-  console.log(existingApplication)
-  if (existingApplication) {
-    redirect("/profile")
-  }
+  if (existingApplication) redirect("/profile")
   
   return (
     <div className="flex justify-center items-center h-screen">

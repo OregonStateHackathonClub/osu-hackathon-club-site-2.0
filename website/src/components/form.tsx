@@ -1,6 +1,6 @@
 "use client"
 
-import { useRouter } from "next/nagivation"
+import { useRouter } from "next/navigation"
 
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
@@ -50,7 +50,17 @@ const formSchema = z.object({
     }, "Response must be 50 words or less"),
 })
 
-export const ApplicationForm = ({ name, email }: { name: string, email: string }) => {
+export const ApplicationForm = ({ 
+  name, 
+  email,
+  defaultValues = {}, 
+  isDisabled = false 
+}: { 
+  name: string, 
+  email: string, 
+  defaultValues?: Partial<z.infer<typeof formSchema>>, 
+  isDisabled?: boolean 
+}) => {
   const router = useRouter()
   
   const form = useForm<z.infer<typeof formSchema>>({
@@ -62,6 +72,7 @@ export const ApplicationForm = ({ name, email }: { name: string, email: string }
       resume: undefined,
       questionProject: "",
       questionFact: "",
+      ...defaultValues
     },
   })
 
@@ -115,10 +126,7 @@ export const ApplicationForm = ({ name, email }: { name: string, email: string }
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input
-                  {...field}
-                  disabled={true}
-                />
+                <Input disabled={true} {...field}/>
               </FormControl>
               <FormDescription>
                 Your email
@@ -134,7 +142,7 @@ export const ApplicationForm = ({ name, email }: { name: string, email: string }
             <FormItem>
               <FormLabel>University</FormLabel>
               <FormControl>
-                <Input placeholder="" {...field} />
+                <Input disabled={isDisabled} {...field} />
               </FormControl>
               <FormDescription>
                 Enter the university you attend
@@ -152,6 +160,7 @@ export const ApplicationForm = ({ name, email }: { name: string, email: string }
               <FormControl>
                 <Input  
                   type="file" 
+                  disabled={isDisabled}
                   onChange={e => {
                     field.onChange(e.target?.files ? e.target.files[0] : null);
                   }}
@@ -171,11 +180,7 @@ export const ApplicationForm = ({ name, email }: { name: string, email: string }
             <FormItem>
               <FormLabel>Tell us about a project you have worked on in the past.</FormLabel>
               <FormControl>
-                <Textarea 
-                  className="h-48"
-                  placeholder="Start typing..."
-                  {...field}
-                />
+                <Textarea className="h-48" disabled={isDisabled} {...field} />
               </FormControl>
               <FormDescription>
                 Max of 250 words
@@ -191,11 +196,7 @@ export const ApplicationForm = ({ name, email }: { name: string, email: string }
             <FormItem>
               <FormLabel>What's an interesting fact about you?</FormLabel>
               <FormControl>
-                <Textarea 
-                  className="h-24"
-                  placeholder="Start typing..."
-                  {...field}
-                />
+                <Textarea className="h-24" disabled={isDisabled} {...field} />
               </FormControl>
               <FormDescription>
                 Max of 50 words
