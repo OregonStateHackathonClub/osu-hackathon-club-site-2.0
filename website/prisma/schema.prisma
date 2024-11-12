@@ -12,6 +12,7 @@ model User {
   googleId String @unique
   name String
   sesions Session[]
+  application Application?
 }
 
 model Session {
@@ -19,8 +20,16 @@ model Session {
   userId Int
   expiresAt DateTime
 
-  user User @relation(references: [id], fields: [userId], onDelete: Cascade)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
-
-
+model Application {
+  id Int @id @default(autoincrement())
+  userId Int @unique
+  university String
+  resumePath String
+  resumeUrl String?
+  status String @default("PENDING")
+  
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
