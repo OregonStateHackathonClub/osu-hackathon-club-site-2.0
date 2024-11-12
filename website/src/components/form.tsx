@@ -1,10 +1,14 @@
 "use client"
 
+import { useRouter } from "next/nagivation"
+
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 
 import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Textarea } from "./ui/textarea"
 import {
   Form,
   FormControl,
@@ -14,12 +18,13 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form"
-import { Input } from "@/components/ui/input"
 
 const MAX_FILE_SIZE = 1024 * 1024 * 5; // 5MB
 const ACCEPTED_FILE_TYPES = ["application/pdf", "image/jpeg", "image/png"];
 
 const formSchema = z.object({
+  name: z.string(),
+  email: z.string(),
   university: z
     .string()
     .min(1, { message: "University cannot be empty"}),
@@ -28,30 +33,54 @@ const formSchema = z.object({
     .optional()
     .refine(file => file !== undefined, "File is required")
     .refine(file => {if (file) {return file.size <= MAX_FILE_SIZE}}, "Max file size is 5MB")
-    .refine(file => {if (file) {return ACCEPTED_FILE_TYPES.includes(file.type)}}, "Only .pdf, .jpeg and .png formats are supported")
+    .refine(file => {if (file) {return ACCEPTED_FILE_TYPES.includes(file.type)}}, "Only .pdf, .jpeg and .png formats are supported"),
+  questionProject: z
+    .string()
+    .min(1, { message: "Question cannot be empty"})
+    .refine(text => {
+      const count = text.trim().split(/\s+/).length
+      return count <= 250;
+    }, "Response must be 250 words or less"),
+  questionFact: z
+    .string()
+    .min(1, { message: "Question cannot be empty"})
+    .refine(text => {
+      const count = text.trim().split(/\s+/).length
+      return count <= 50;
+    }, "Response must be 50 words or less"),
 })
 
-export const ApplicationForm = () => {
-
+export const ApplicationForm = ({ name, email }: { name: string, email: string }) => {
+  const router = useRouter()
+  
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
+      name,
+      email,
       university: "",
-      resume: undefined
+      resume: undefined,
+      questionProject: "",
+      questionFact: "",
     },
   })
 
   const onSubmit = async(values: z.infer<typeof formSchema>) => {
-    console.log(values)
+
     const formData = new FormData()
     formData.append("university", values.university)
     formData.append("resume", values.resume!)
+    formData.append("questionProject", values.questionProject)
+    formData.append("questionFact", values.questionFact)
 
     try {
-      await fetch("/api/apply", {
+      const response = await fetch("/api/apply", {
         method: "POST",
         body: formData
       })
+      if (response.ok) {
+        router.push("/profile")
+      }
     } catch (e) {
       console.error(e)
     }
@@ -60,6 +89,44 @@ export const ApplicationForm = () => {
   return (
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+      <FormField 
+          control={form.control}
+          name="name"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>Name</FormLabel>
+              <FormControl>
+                <Input
+                  {...field}
+                  disabled={true}
+                />
+              </FormControl>
+              <FormDescription>
+                Your name
+              </FormDescription>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+        <FormField 
+          control={form.control}
+          name="email"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>Email</FormLabel>
+              <FormControl>
+                <Input
+                  {...field}
+                  disabled={true}
+                />
+              </FormControl>
+              <FormDescription>
+                Your email
+              </FormDescription>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
         <FormField
           control={form.control}
           name="university"
@@ -70,7 +137,7 @@ export const ApplicationForm = () => {
                 <Input placeholder="" {...field} />
               </FormControl>
               <FormDescription>
-                Enter the university you attend.
+                Enter the university you attend
               </FormDescription>
               <FormMessage />
             </FormItem>
@@ -83,9 +150,11 @@ export const ApplicationForm = () => {
             <FormItem>
               <FormLabel>Resume</FormLabel>
               <FormControl>
-                <Input  type="file" onChange={e => {
-                  field.onChange(e.target?.files ? e.target.files[0] : null);
-                }}
+                <Input  
+                  type="file" 
+                  onChange={e => {
+                    field.onChange(e.target?.files ? e.target.files[0] : null);
+                  }}
                 />
               </FormControl>
               <FormDescription>
@@ -95,7 +164,47 @@ export const ApplicationForm = () => {
             </FormItem>
           )}
         />
-        <Button type="submit">Submit</Button>
+        <FormField 
+          control={form.control}
+          name="questionProject"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>Tell us about a project you have worked on in the past.</FormLabel>
+              <FormControl>
+                <Textarea 
+                  className="h-48"
+                  placeholder="Start typing..."
+                  {...field}
+                />
+              </FormControl>
+              <FormDescription>
+                Max of 250 words
+              </FormDescription>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+        <FormField 
+          control={form.control}
+          name="questionFact"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>What's an interesting fact about you?</FormLabel>
+              <FormControl>
+                <Textarea 
+                  className="h-24"
+                  placeholder="Start typing..."
+                  {...field}
+                />
+              </FormControl>
+              <FormDescription>
+                Max of 50 words
+              </FormDescription>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+        <Button type="submit" variant="outline" className="w-full">Submit</Button>
       </form>
     </Form>
   )

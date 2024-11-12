@@ -6,6 +6,12 @@ import { prisma } from "@/lib/prisma";
 
 import type { OAuth2Tokens } from "arctic";
 
+type GoogleClaims = {
+	sub: string
+	name: string
+	email: string
+}
+
 export async function GET(request: Request): Promise<Response> {
 	const url = new URL(request.url);
 	const code = url.searchParams.get("code");
@@ -25,8 +31,6 @@ export async function GET(request: Request): Promise<Response> {
 		});
 	}
 
-	console.log("HERE")
-
 	let tokens: OAuth2Tokens;
 	try {
 		tokens = await google.validateAuthorizationCode(code, codeVerifier);
@@ -37,9 +41,8 @@ export async function GET(request: Request): Promise<Response> {
 			status: 400
 		});
 	}
-	const claims = decodeIdToken(tokens.idToken());
-	const googleUserId = claims.sub;
-	const name = claims.name;
+
+	const { sub: googleUserId, name, email } = decodeIdToken(tokens.idToken()) as GoogleClaims;
 
 	const existingUser = await prisma.user.findUnique({
 		where: {
@@ -54,7 +57,7 @@ export async function GET(request: Request): Promise<Response> {
 		return new Response(null, {
 			status: 302,
 			headers: {
-				Location: "/"
+				Location: "/profile"
 			}
 		});
 	}
@@ -62,7 +65,8 @@ export async function GET(request: Request): Promise<Response> {
 	const user = await prisma.user.create({
 		data: {
 			googleId: googleUserId,
-			name: name
+			email,
+			name,
 		}
 	})
 
@@ -72,7 +76,7 @@ export async function GET(request: Request): Promise<Response> {
 	return new Response(null, {
 		status: 302,
 		headers: {
-			Location: "/"
+			Location: "/profile"
 		}
 	});
 }
