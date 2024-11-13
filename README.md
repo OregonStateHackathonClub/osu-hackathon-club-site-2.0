@@ -1,45 +1,36 @@
-# Oregon State Hackathon Website 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/52d478f8-9eec-4470-90b1-f01516bda74c/deploy-status)](https://app.netlify.com/sites/osu-hackathon-club/deploys)
+## Getting Started
 
-## Link
-https://www.oregonstatehackathon.com/
+First, run the development server:
 
-## Contributors
-* Christina Persaud
-
-## Rules for Contributing
-1. Create a new branch for features to be added
-2. Name branch: Feature/FeatureToBeAdded (e.g. Feature/AddingNewSection)
-(Note: Make sure you don't lump a bunch of unrelated changes under one PR!)
-3. Make a Pull Request when ready to merge changes to the master branch
-4. On your PR, add a picture or quick video of your changes
-5. Under Reviewers (section on the top right), request kberba to review PR
-6. Let Rachel P. know of your changes on Slack! :)
-7. Feel free to add your name under Contributers on README.md
-
-## Install 
-1. Install Node.js. (Use Node.js version 16)
-2. Clone this repository:
-```
-gh repo clone OregonStateHackathonClub/osu-hackathon-club-site-2.0
-```
-3. Move into the project root directory:
-```
-cd osu-hackathon-club-site-2.0
-```
-4. Install project dependencies (npm):
-```
-npm install
-```
-5. Run local development server:
-```
-npm start
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-7. Create build for changes made:
-```
-npm run build
-```
-8. Commit changes and push to Github
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
