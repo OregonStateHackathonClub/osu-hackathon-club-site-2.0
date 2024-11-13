@@ -10,7 +10,7 @@ import {
   FieldValues,
   FormProvider,
   useFormContext,
-} from "../../../node_modules/react-hook-form/dist"
+} from "react-hook-form"
 
 import { cn } from "@/lib/utils"
 import { Label } from "@/components/ui/label"

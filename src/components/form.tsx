@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation"
 
 import { zodResolver } from "@hookform/resolvers/zod"
-import { useForm } from "../../node_modules/react-hook-form/dist"
+import { useForm } from "react-hook-form"
 import { z } from "zod"
 
 import { Button } from "@/components/ui/button"
@@ -194,7 +194,7 @@ export const ApplicationForm = ({
           name="questionFact"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>What's an interesting fact about you?</FormLabel>
+              <FormLabel>What&aposs an interesting fact about you?</FormLabel>
               <FormControl>
                 <Textarea className="h-24" disabled={isDisabled} {...field} />
               </FormControl>

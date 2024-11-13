@@ -34,16 +34,6 @@ export const GridAnimation = () => {
 
     const width = canvas.width / 2;
     const height = canvas.height / 2;
-
-    function drawLine(ctx: CanvasRenderingContext2D, x: number, y: number, length: number, angle: number) {
-      const endX = x + length * Math.cos(-angle * Math.PI / 180);
-      const endY = y + length * Math.sin(-angle * Math.PI / 180);
-      
-      ctx.beginPath();
-      ctx.moveTo(x, y);
-      ctx.lineTo(endX, endY);
-      ctx.stroke();
-    }
     
     ctx.strokeStyle = "white"
     ctx.font = "16px Monospace";
@@ -78,13 +68,13 @@ export const GridAnimation = () => {
         const currAngle = Math.atan2(dy, dx)
         const newAngle = currAngle - Math.pow(dist, 0.5) * frame * 0.0003
 
-        const rotatedX = point.x * Math.cos(frame * .005 + Math.abs(point.x) + Math.abs(point.y)) - point.y * Math.sin(frame * .005 + Math.abs(point.x) + Math.abs(point.y));
-        const rotatedY = point.x * Math.sin(frame * .005 + Math.abs(point.x) + Math.abs(point.y)) + point.y * Math.cos(frame * .005 + Math.abs(point.x) + Math.abs(point.y));
+        // const rotatedX = point.x * Math.cos(frame * .005 + Math.abs(point.x) + Math.abs(point.y)) - point.y * Math.sin(frame * .005 + Math.abs(point.x) + Math.abs(point.y));
+        // const rotatedY = point.x * Math.sin(frame * .005 + Math.abs(point.x) + Math.abs(point.y)) + point.y * Math.cos(frame * .005 + Math.abs(point.x) + Math.abs(point.y));
 
-        const offsetPoint = {
-          x: rotatedX * width * 0.5 + width,
-          y: rotatedY * height * 0.5 + height
-        };
+        // const offsetPoint = {
+        //   x: rotatedX * width * 0.5 + width,
+        //   y: rotatedY * height * 0.5 + height
+        // };
 
         const offsetPoint2 = {
           x: 300 + Math.cos(newAngle) * dist,
@@ -99,8 +89,6 @@ export const GridAnimation = () => {
       ctx.fillStyle = "white";
 
       // Beaver Hacks ASCII Art: 56 chars long, 468 x 52 px
-      // drawLine(ctx, 4, 324, 468, 0)
-      // drawLine(ctx, 2, 268, 52, 270)
 
       // ctx.fillText(" ___                        _   _         _", 66, 276)
       // ctx.fillText("| - )___ __ _ _ __ __ _ _  | |_| |__ _ __| |_ ___", 66, 292)
