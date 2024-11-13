@@ -1,10 +1,10 @@
 import { redirect } from "next/navigation"
 
-import { getCurrentSession, logout } from "@/lib/auth/session"
+import { getCurrentSession } from "@/lib/auth/session"
 import { prisma } from "@/lib/prisma"
 
 import { AuthPage } from "@/components/auth"
-import { ApplicationForm } from "@/components/form"
+// import { ApplicationForm } from "@/components/form"
 import { LogoutButton } from "@/components/logout"
 
 const Profile = async() => {

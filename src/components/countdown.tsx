@@ -2,30 +2,37 @@
 
 import { useState, useEffect } from "react"
 
+interface TimeLeft {
+  days: number
+  hours: number
+  minutes: number
+  seconds: number
+}
+
 export const Countdown = ({ targetDate }: { targetDate: Date }) => {
-  const [timeLeft, setTimeLeft] = useState<any>(null)
+  const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(null)
 
-  function calculateTimeLeft() {
-    const dt = +targetDate - +new Date()
-
-    if (dt <= 0) {
+  useEffect(() => {
+    function calculateTimeLeft(): TimeLeft {
+      const dt = +targetDate - +new Date()
+  
+      if (dt <= 0) {
+        return {
+          days: 0,
+          hours: 0,
+          minutes: 0,
+          seconds: 0
+        }
+      }
+  
       return {
-        days: 0,
-        hours: 0,
-        minutes: 0,
-        seconds: 0
+        days: Math.floor(dt / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((dt / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((dt / 1000 / 60) % 60),
+        seconds: Math.floor((dt / 1000) % 60)
       }
     }
 
-    return {
-      days: Math.floor(dt / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((dt / (1000 * 60 * 60)) % 24),
-      minutes: Math.floor((dt / 1000 / 60) % 60),
-      seconds: Math.floor((dt / 1000) % 60)
-    }
-  }
-
-  useEffect(() => {
     setTimeLeft(calculateTimeLeft())
 
     const timer = setInterval(() => {
@@ -33,7 +40,7 @@ export const Countdown = ({ targetDate }: { targetDate: Date }) => {
     }, 1000)
 
     return () => clearInterval(timer)
-  }, [])
+  }, [targetDate])
 
 
   // i want to add a number interpolation animation here

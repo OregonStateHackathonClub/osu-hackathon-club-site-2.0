@@ -65,7 +65,7 @@ export const invalidateSession = async(sessionId: string): Promise<void> => {
 } 
 
 export const getCurrentSession = cache(async (): Promise<SessionValidationResult> => {
-	const cookieStore = await cookies();
+	const cookieStore = cookies();
 	const token = cookieStore.get("session")?.value ?? null;
 	if (token === null) {
 		return { session: null, user: null };

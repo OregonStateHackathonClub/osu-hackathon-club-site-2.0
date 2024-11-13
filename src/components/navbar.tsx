@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ApplyButton } from "./apply"
+import { ApplyButton } from "@/components/apply"
 
 export const Navbar = () => {
   return (

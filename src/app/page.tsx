@@ -17,7 +17,7 @@ const Home = () => {
         <ChevronButton targetRef={next}/>
       </div>
       <div ref={next} className="w-screen h-screen flex flex-col items-center justify-center">
-        <span>Oregon State's Biggest Hackathon</span>
+        <span>Oregon State&aposs Biggest Hackathon</span>
         <Countdown targetDate={new Date(1732327200 * 1000)} />
       </div>
       
