@@ -1,6 +1,7 @@
 import { encodeBase32LowerCaseNoPadding, encodeHexLowerCase } from "@oslojs/encoding"
 import { sha256 } from "@oslojs/crypto/sha2"
 import { cookies } from "next/headers"
+import { redirect } from "next/navigation"
 import { cache } from "react"
 import { prisma } from "@/lib/prisma"
 import type { User, Session } from "@prisma/client"
@@ -85,7 +86,7 @@ export const setSessionTokenCookie = async(token: string, expiresAt: Date): Prom
 }
 
 export const deleteSessionTokenCookie = async(): Promise<void> => {
-	const cookieStore = await cookies();
+	const cookieStore = cookies();
 	cookieStore.set("session", "", {
 		httpOnly: true,
 		sameSite: "lax",
@@ -93,6 +94,16 @@ export const deleteSessionTokenCookie = async(): Promise<void> => {
 		maxAge: 0,
 		path: "/"
 	});
+}
+
+export const logout = async(): Promise<void> => {
+	"use server";
+	const { session } = await getCurrentSession();
+	if (!session) return
+
+	await invalidateSession(session.id);
+	await deleteSessionTokenCookie();
+	redirect("/");
 }
 
 export type SessionValidationResult = 

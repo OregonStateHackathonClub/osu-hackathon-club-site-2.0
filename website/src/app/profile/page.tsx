@@ -1,10 +1,11 @@
 import { redirect } from "next/navigation"
 
-import { getCurrentSession } from "@/lib/auth/session"
+import { getCurrentSession, logout } from "@/lib/auth/session"
 import { prisma } from "@/lib/prisma"
 
 import { AuthPage } from "@/components/auth"
 import { ApplicationForm } from "@/components/form"
+import { LogoutButton } from "@/components/logout"
 
 const Profile = async() => {
   
@@ -20,8 +21,11 @@ const Profile = async() => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
+      <LogoutButton />
       <div>Welcome back {user.name}</div>
-      <div>Congrats, You have submitted your application!</div>
+      <div>Congrats, you have submitted your application!</div>
+
+      {/*  could preview their application here
       <ApplicationForm 
         name={user.name}
         email={user.email}
@@ -29,11 +33,10 @@ const Profile = async() => {
           university: application.university,
           questionProject: application.questionProject,
           questionFact: application.questionFact,
-          // Can't set file input value due to security restrictions
           resume: undefined
         }}
-        isDisabled={true}  // New prop
-      />
+        isDisabled={true}
+      /> */}
     </div>
   )
 }
