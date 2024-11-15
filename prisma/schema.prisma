@@ -25,10 +25,11 @@ model Session {
 
 model Application {
   id         Int     @id @default(autoincrement())
+  createdAt DateTime @default(now())
   userId     Int     @unique
   university String
+  graduationYear Int
   resumePath String
-  resumeUrl  String?
   status     String  @default("PENDING")
   user       User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 }

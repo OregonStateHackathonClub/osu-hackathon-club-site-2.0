@@ -27,7 +27,10 @@ const formSchema = z.object({
   email: z.string(),
   university: z
     .string()
-    .min(1, { message: "University cannot be empty"}),
+    .min(1, { message: "University cannot be empty" }),
+  graduationYear: z
+    .string()
+    .min(1, { message: "Graduation year cannot be empty" }),
   resume: z
     .instanceof(File)
     .optional()
@@ -69,6 +72,7 @@ export const ApplicationForm = ({
       name,
       email,
       university: "",
+      graduationYear: "",
       resume: undefined,
       questionProject: "",
       questionFact: "",
@@ -80,6 +84,7 @@ export const ApplicationForm = ({
 
     const formData = new FormData()
     formData.append("university", values.university)
+    formData.append("graduationYear", values.graduationYear)
     formData.append("resume", values.resume!)
     formData.append("questionProject", values.questionProject)
     formData.append("questionFact", values.questionFact)
@@ -151,6 +156,22 @@ export const ApplicationForm = ({
             </FormItem>
           )}
         />
+        <FormField
+          control={form.control}
+          name="graduationYear"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>Graduation Year</FormLabel>
+              <FormControl>
+                <Input disabled={isDisabled} {...field} />
+              </FormControl>
+              <FormDescription>
+                Enter your graduation year
+              </FormDescription>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
         <FormField 
           control={form.control}
           name="resume"
@@ -194,7 +215,7 @@ export const ApplicationForm = ({
           name="questionFact"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>What&aposs an interesting fact about you?</FormLabel>
+              <FormLabel>What&apos;s an interesting fact about you?</FormLabel>
               <FormControl>
                 <Textarea className="h-24" disabled={isDisabled} {...field} />
               </FormControl>
