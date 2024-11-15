@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "db:generate && db:migrate push && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate deploy"
   },
   "dependencies": {
     "@google-cloud/storage": "^7.14.0",
