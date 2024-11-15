@@ -27,14 +27,14 @@ export async function POST(request: Request): Promise<Response> {
 
   const formData = await request.formData()
 
-  const { path, url } = await uploadFile(formData.get("resume") as File)
+  const path = await uploadFile(formData.get("resume") as File)
 
   const application = await prisma.application.create({
     data: {
       userId: user.id,
       university: formData.get("university") as string,
+      graduationYear: parseInt(formData.get("graduationYear") as string),
       resumePath: path,
-      resumeUrl: url,
     }
   })
 
